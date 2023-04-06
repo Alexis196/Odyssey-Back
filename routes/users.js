@@ -1,20 +1,22 @@
 import express from 'express'
 import user from '../controllers/users/create.js'
+import validator from '../middlewares/validator.js'
+import schemaSignUp from '../schemas/usersSignUp.js'
+import schemaSignIn from '../schemas/usersSignIn.js'
+import accountExistsSignUp from '../middlewares/accountExistsSignUp.js'
+import accountExistsSignIn from '../middlewares/accountExistsSignIn.js'
+import accountHasBeenVerified from '../middlewares/accountHasBeenVerified.js'
+import passwordIsOk from '../middlewares/passwordIsOk.js'
+import passport from '../middlewares/passport.js'
 
-let router = express.Router()
+const {sign_up, sign_in, token,  sign_out} = user
 
-const {create} = user
+let router = express.Router();
 
-/* GET users listing. */
-router.get('/', (req, res, next) => {
-  return res
-  .send('Aquí deberían aparecer todos los usuarios')
-  .status(200)
-});
-
-//POST
-
-router.post('/signup', create);
+router.post('/signup', validator(schemaSignUp), accountExistsSignUp, sign_up)
+router.post('/signin', validator(schemaSignIn), accountExistsSignIn, accountHasBeenVerified, passwordIsOk,sign_in)
+router.post('/token', passport.authenticate('jwt', {session:false}), token)
+router.post('/signout', passport.authenticate('jwt', {session:false}), sign_out)
 
 
 export default router
