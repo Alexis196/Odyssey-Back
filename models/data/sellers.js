@@ -1,41 +1,41 @@
 let sellers = [{
-    name: "alejandro",
+    name: "miguel",
     city: "buenos aires",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'alejandro@mh.com.ar'
+    user_id: 'miguel@gmail.com'
 },{
-    name: "lucas",
-    last_name: "silva",
+    name: "juan",
+    last_name: "perez",
     city: "buenos aires",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'lucas@mh.com.ar'
+    user_id: 'juan@gmail.com'
 },{
-    name: "jose",
-    last_name: "lopez",
+    name: "andres",
+    last_name: "garcia",
     city: "villa carlos paz",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'jose@mh.com.ar'
+    user_id: 'andres@gmail.com'
 },{
-    name: "eric",
+    name: "gabriel",
     city: "resistencia",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'eric@mh.com.ar'
+    user_id: 'gabriel@gmail.com'
 },{
-    name: "igna",
-    last_name: "borraz",
+    name: "fernando",
+    last_name: "sanchez",
     city: "rosario",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'igna@mh.com.ar'
+    user_id: 'fernando@gmail.com'
 }]
 
 export default sellers
