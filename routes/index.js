@@ -1,6 +1,6 @@
 import userRouter from './users.js'
-import destino from './destino.js'
-import detail from './detail.js';
+import destino from './destinos.js'
+import detail from './details.js';
 
 
 import express from 'express'
@@ -13,6 +13,6 @@ router.get('/', function(req, res, next) {
 
 router.use('/users',userRouter)
 router.use('/destinos', destino)
-router.use('/detail', detail)
+router.use('/details', detail)
 
 export default router
