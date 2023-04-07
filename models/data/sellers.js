@@ -22,20 +22,20 @@ let sellers = [{
     active: true,
     user_id: 'julia@gm.com.ar'
 },{
-    name: "eric",
+    name: "javier",
     city: "resistencia",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'eric@mh.com.ar'
+    user_id: 'javier@gm.com.ar'
 },{
-    name: "igna",
-    last_name: "borraz",
+    name: "esteban",
+    last_name: "rys",
     city: "rosario",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'igna@mh.com.ar'
+    user_id: 'esteban@gm.com.ar'
 }]
 
 export default sellers
