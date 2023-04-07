@@ -1,5 +1,5 @@
 export let users = [{
-    mail: "alejandro@mh.com.ar",
+    mail: "raul@gm.com.ar",
     password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
     is_seller: true,
     is_admin: false,
@@ -8,7 +8,7 @@ export let users = [{
     is_online: false,
     photo: "https://i.postimg.cc/fyJsspq8/image.png"
 },{
-    mail: "lucas@mh.com.ar",
+    mail: "adrian@gm.com.ar",
     password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
     is_seller: true,
     is_admin: false,
@@ -17,7 +17,7 @@ export let users = [{
     is_online: false,
     photo: "https://i.postimg.cc/fyJsspq8/image.png"
 },{
-    mail: "jose@mh.com.ar",
+    mail: "julia@gm.com.ar",
     password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
     is_seller: true,
     is_admin: false,

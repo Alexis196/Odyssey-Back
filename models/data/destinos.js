@@ -7,7 +7,7 @@ export let destinos = [
         description:
             "Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion Bariloche descripcion ",
         category_id: "Patagonia",
-        seller_id: "alejandro",
+        seller_id: "raul",
         detail: [
             {
                 title: "Bariloche",
@@ -16,7 +16,7 @@ export let destinos = [
                     "https://getwalls.io/media/large/2020/07/san-carlos-de-bariloche-hd-4k-wallpapers-for-apple-watch-iphone-large-934416058.jpg",
                     "https://anduma.tur.ar/wp-content/uploads/2021/04/faf36f_323792ea108e49378282fe19bc560c51_mv2.jpg",
                 ],
-                order: 2,
+                price: 400,
             },
         ],
     },
@@ -27,7 +27,7 @@ export let destinos = [
             "https://c4.wallpaperflare.com/wallpaper/447/232/16/iguazu-national-park-south-america-iguazu-river-misiones-wallpaper-preview.jpg",
         description: "Misiones",
         category_id: "selva",
-        seller_id: "lucas",
+        seller_id: "adrian",
         detail: [
             {
                 title: "Cataratas del Iguazú",
@@ -36,7 +36,7 @@ export let destinos = [
                     "https://i.postimg.cc/BbXRYTHz/shingeki-no-kyojin-001-02.png",
                     "https://dailyweb.com.ar/data/img_cont/img_imagenes/img_gr/42711.jpg",
                 ],
-                order: 1,
+                price: 300,
             },
         ],
     },
@@ -48,7 +48,7 @@ export let destinos = [
         description:
             "Calafate ",
         category_id: "Patagonia",
-        seller_id: "eric",
+        seller_id: "julia",
         detail: [
             {
                 title: "Calafate",
@@ -57,7 +57,7 @@ export let destinos = [
                     "https://i.ytimg.com/vi/0qe4rStwiHY/maxresdefault.jpg",
                     "https://www.infobae.com/new-resizer/81HARaBEGXhTg3SeYG5MRMJ8J18=/1200x628/filters:format(webp):quality(85)//cloudfront-us-east-1.images.arcpublishing.com/infobae/OKNR6K64A5EXREH3LME2OCNQXM.jpg",
                 ],
-                order: 3,
+                price: 500,
             },
         ],
     },

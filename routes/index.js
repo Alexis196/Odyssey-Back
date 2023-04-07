@@ -1,4 +1,5 @@
 import userRouter from './users.js'
+import destino from './destino.js'
 
 
 import express from 'express'
@@ -10,5 +11,6 @@ router.get('/', function(req, res, next) {
 });
 
 router.use('/users',userRouter)
+router.use('/destinos', destino)
 
 export default router

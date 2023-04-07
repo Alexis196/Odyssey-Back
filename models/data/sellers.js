@@ -1,26 +1,26 @@
 let sellers = [{
-    name: "alejandro",
+    name: "raul",
     city: "buenos aires",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'alejandro@mh.com.ar'
+    user_id: 'raul@gm.com.ar'
 },{
-    name: "lucas",
-    last_name: "silva",
+    name: "adrian",
+    last_name: "andrada",
     city: "buenos aires",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'lucas@mh.com.ar'
+    user_id: 'adrian@gm.com.ar'
 },{
-    name: "jose",
+    name: "julia",
     last_name: "lopez",
     city: "villa carlos paz",
     country: "argentina",
     photo: "https://conceptodefinicion.de/wp-content/uploads/2016/01/Perfil2.jpg",
     active: true,
-    user_id: 'jose@mh.com.ar'
+    user_id: 'julia@gm.com.ar'
 },{
     name: "eric",
     city: "resistencia",
