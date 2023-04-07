@@ -2,7 +2,7 @@ import Seller from '../../models/Seller.js'
 
 const newSeller = {
     create: async(req,res,next) => {
-        const user_id = req.body.user_id; // declare user_id using 'const'
+        const user_id = req.body.user_id;
         req.body.user_id = user_id;
         req.body.active = false;
         try{
