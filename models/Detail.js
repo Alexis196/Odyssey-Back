@@ -6,7 +6,7 @@ let schema = new mongoose.Schema(
         destino_id:{ type:mongoose.Types.ObjectId, ref:'destinos', required:true },
         title: { type:String, required:true },
         pages: { type:Array, required:true },
-        order: { type:Number }        
+        price: { type:Number }        
     },{
         timestamps: true
     }

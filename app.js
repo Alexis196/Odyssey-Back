@@ -5,6 +5,7 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan'
 import indexRouter from './routes/index.js'
+import { errorHandler, errorNotFound } from './middlewares/error.js'
 import { __dirname } from './utils.js'
 
 const app = express();
@@ -17,5 +18,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use('/', indexRouter)
+
+app.use(errorNotFound)
+app.use(errorHandler)
 
 export default app
