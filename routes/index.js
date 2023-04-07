@@ -1,6 +1,7 @@
 import userRouter from './users.js'
 import destino from './destinos.js'
 import detail from './details.js';
+import seller from './seller.js'
 
 
 import express from 'express'
@@ -14,5 +15,6 @@ router.get('/', function(req, res, next) {
 router.use('/users',userRouter)
 router.use('/destinos', destino)
 router.use('/details', detail)
+router.use('/seller', seller)
 
 export default router
