@@ -8,11 +8,11 @@ import express from 'express'
 let router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.use('/users',userRouter)
+router.use('/users', userRouter)
 router.use('/destinos', destino)
 router.use('/details', detail)
 router.use('/seller', seller)
