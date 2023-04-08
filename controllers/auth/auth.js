@@ -33,7 +33,7 @@ const controller = {
         text: "Validate your user by clicking on the following link",
         html: `<p><br>Welcome to Odyssey Project<br>
               <br> Discover a world, have fun and enjoy <br> 
-              Press the following link to validate your user: <a href="http://localhost:8080/users/verify/${req.body.verify_code}"a>Click here</  a></p> 
+              Press the following link to validate your user: <a href="http://localhost:3000/users/verify/${req.body.verify_code}"a>Click here</  a></p> 
               <p style="color: grey;">--<br>
               Kind regards,<br>
               Odyssey's team<br>
