@@ -8,7 +8,7 @@ const todos = {
                 order.title = req.query.order
             }
 
-            let pagination = { page: 1, limit: 6 }
+            let pagination = { page: 1, limit: 0 }
             if (req.query.page) {
                 pagination.page = Number(req.query.page)
             }
@@ -27,11 +27,11 @@ const todos = {
             }
 
             let destino = await Destino.find(query)
-                .select("title category_id cover_photo _id")
-                .sort(order)
-                .skip(skip)
-                .limit(pagination.limit > 0 ? pagination.limit : 0)
-                .populate("category_id", "name -_id")
+                // .select("title category_id cover_photo _id")
+                // .sort(order)
+                // .skip(skip)
+                // .limit(pagination.limit > 0 ? pagination.limit : 0)
+                // .populate("category_id", "name -_id")
 
             if(destino.length){
                 return res
