@@ -7,7 +7,7 @@ const oneDest = {
     getOne: async (req, res, next) => {
         try {
             const destino = await Destino.findOne({ _id: req.params.id })
-                .select("title cover_photo description seller_id category_id _id")
+
 
             if (destino) {
                 return res

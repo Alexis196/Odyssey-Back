@@ -11,16 +11,16 @@ import is_property_of from "../middlewares/sellers/is_property_of.js";
 import is_active from "../middlewares/sellers/is_active.js";
 
 let router = express.Router()
-const {create} = destinos
-const {getOne} = oneDest
-const {destroy} = destroyD
-const {update} = updateD
-const {read} = todos
+const { create } = destinos
+const { getOne } = oneDest
+const { destroy } = destroyD
+const { update } = updateD
+const { read } = todos
 
-router.post('/',  passport.authenticate("jwt", { session: false }), exist_destino, finds_id, create)
+router.post('/', passport.authenticate("jwt", { session: false }), exist_destino, finds_id, create)
 
-router.get('/', passport.authenticate('jwt', { session: false }), read)
-router.get('/:id', passport.authenticate('jwt', { session: false }), getOne)
+router.get('/', read)
+router.get('/:id', getOne)
 
 router.put('/:id', passport.authenticate('jwt', { session: false }), update)
 
