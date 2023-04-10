@@ -3,9 +3,7 @@ import Detail from "../../models/Detail.js";
 const getOne = {
     get_one: async (req, res, next) => {
         try {
-            let detail = await Detail.findById(req.params.id).select(
-                "-__v -updatedAt -createdAt"
-            );
+            let detail = await Detail.findById(req.params.id)
 
             if (detail) {
                 return res.status(200).json({

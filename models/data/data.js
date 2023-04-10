@@ -29,11 +29,11 @@ let newDestino = async(destinos) => {
         destino.category_id = category._id
         destino.seller_id = seller._id
         let newDestino = await Destino.create(destino)
-        for (let detail of destino.detail) {
-            detail.destino_id = newDestino._id
-            detail.cover_photo = detail.pages[0]
-            await Detail.create(detail)
-        }
+        // for (let detail of destino.detail) {
+        //     detail.destino_id = newDestino._id
+        //     detail.cover_photo = detail.pages[0]
+        //     await Detail.create(detail)
+        // }
     }
 }
 
