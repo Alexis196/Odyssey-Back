@@ -1,9 +1,14 @@
 export let categories = [
     {
-        name: "Patagonia",
-        detail: "Patagonia"
+        name: "Nature and Wildlife",
     },{
-        name: "selva",
-        detail: "Selva"
+        name: "Culture and heritage",
+    },{
+        name: "Mountains and Adventure Sports",
+    },{
+        name: "City and Urban Tourism",
+    },{
+        name: "End of the World and Extreme Nature",
     }
 ]
+
