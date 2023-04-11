@@ -2,10 +2,47 @@ export let destinos = [
     {
         id: "bariloche",
         title: "Bariloche",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://anduma.tur.ar/wp-content/uploads/2021/04/faf36f_323792ea108e49378282fe19bc560c51_mv2.jpg",
-        description:
-            'Known as "the Argentine Switzerland", it is famous for its mountain landscapes, crystalline lakes and its delicious cuisine, especially its chocolates and craft beers. It offers activities such as skiing, hiking, mountain biking and sport fishing.',
+        packages:[
+            {
+            title: "Bariloche",
+            plane: "Available",
+            time: [
+                {
+                start_date: "08/12/2023",  // Despues reviso si se puede pasar por el calendar de google.
+                finish_date: "15/12/2023" // Despues reviso si se puede pasar por el calendar de google.
+                }
+            ],
+            price: 495,
+            hotel: [
+                {
+                check_in: "09/12/2023 - 07:00 am",
+                check_out: "16/12/2023 - 10:00 am"
+            }
+        ]  
+            },
+            {
+            train: "Not Available",
+            time: {
+                start_date: " Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                },
+            price: "Not Available",
+            hotel: "Not Available"
+            },
+            {
+            bus: "Available",
+            time: {
+                start_date: "20/12/2023",  // Despues reviso si se puede pasar por el calendar de google.
+                finish_date: "25/12/2023" // Despues reviso si se puede pasar por el calendar de google.
+                },
+            price: 340,
+            hotel: "Not Available"
+            },
+        ],
         category_id: "Mountains and Adventure Sports",
         seller_id: "raul",
         pages: [
@@ -14,17 +51,60 @@ export let destinos = [
             "https://anduma.tur.ar/wp-content/uploads/2021/04/faf36f_323792ea108e49378282fe19bc560c51_mv2.jpg",
         ],
         price: 1050,
-        detail: [
-            {
-            },
-        ],
     },
+
+
     {
         id: "Las Cataratas del Iguazú",
         title: "Las Cataratas del Iguazú",
+        continent: "South America",
+        country: "America",
         cover_photo:
             "https://c4.wallpaperflare.com/wallpaper/447/232/16/iguazu-national-park-south-america-iguazu-river-misiones-wallpaper-preview.jpg",
-        description: "This impressive set of waterfalls is located on the border between Argentina and Brazil and is one of the most famous tourist spots in South America.",
+            packages:[
+                {
+                title: "Las Cataratas del Iguazú",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "02/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "09/02/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 489,
+                hotel: [
+                    {
+                    check_in: "03/02/2024 - 07:00 am",
+                    check_out: "10/02/2024 - 10:00 am"
+                }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: " Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Available",
+                time: {
+                    start_date: "20/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "10/02/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 440,
+                hotel: [
+                    {
+                        check_in: "21/02/2024 - 07:00 am",
+                        check_out: "21/02/2024 - 10:00 am"
+                    }
+                ]
+                },
+            ],
         category_id: "Nature and Wildlife",
         seller_id: "adrian",
         pages: [
@@ -34,13 +114,59 @@ export let destinos = [
         ],
         price: 500,
     },
+
+
     {
         id: "Calafate",
         title: "Calafate",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://viatgesrovira.com/wp-content/uploads/2020/01/CALAFATE.jpg",
-        description:
-            "Located in Los Glaciares National Park, it is famous for the majestic Perito Moreno Glacier, which can be admired from different points of view and hikes on the ice.",
+        packages:[
+                {
+                title: "Calafate",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "12/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "20/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 1098,
+                hotel: [
+                    {
+                    check_in: "13/03/2024 - 07:00 am",
+                    check_out: "21/03/2024 - 10:00 am"
+                }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "20/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "10/02/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 850,
+                hotel: [
+                    {
+                        check_in: "21/02/2024 - 07:00 am",
+                        check_out: "21/02/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
         category_id: "Mountains and Adventure Sports",
         seller_id: "julia",
         pages: [
@@ -50,13 +176,54 @@ export let destinos = [
         ],
         price: 1200,
     },
+
+
     {
         id: "Parque Nacional El Leoncito",
         title: "Parque Nacional El Leoncito",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://1.bp.blogspot.com/-2-6kA3yOl7s/XPfBKGn-SEI/AAAAAAAAG3A/v2YK8ruMUPsCplnd4otTciCFLDh31XATgCPcBGAYYCw/s1600/Parque%2Bnacional%2Bel%2Bleoncito%2Bactividades%2Binformacion%2Btrekking%2Bvisitas.jpg",
-        description:
-            "This park offers impressive views of the Andes Mountains, as well as an astronomical observatory and trails for hiking and biking. ",
+            packages:[
+                {
+                title: "Parque Nacional El Leoncito",
+                plane: "Not Available",
+                time: [
+                    {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                train: "Available",
+                time: {
+                    start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "29/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 648,
+                hotel: [
+                    {
+                        check_in: "23/06/2024 - 07:00 am",
+                        check_out: "30/06/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                bus: "Available",
+                time: {
+                    start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 568,
+                hotel: "Not Available"
+                },
+            ],
         category_id: "Nature and Wildlife",
         seller_id: "julia",
         pages: [
@@ -65,13 +232,54 @@ export let destinos = [
         ],
         price: 700,
     },
+
+
     {
         id: "Parque Nacional Chaco",
         title: "Parque Nacional Chaco",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://www.serargentino.com/public/images/2020/07/15947388080-parque_nacional_chaco_casa_guardaparque-773x458.jpg",
-        description:
-            "This park is home to a diversity of flora and fauna, including the jaguar, jaguar, anteater, and coati. It is also an ideal place for walks and photo safaris. ",
+            packages:[
+                {
+                title: "Parque Nacional Chaco",
+                plane: "Not Available",
+                time: [
+                    {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                train: "Available",
+                time: {
+                    start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "29/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 648,
+                hotel: [
+                    {
+                        check_in: "23/06/2024 - 07:00 am",
+                        check_out: "30/06/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                bus: "Available",
+                time: {
+                    start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 568,
+                hotel: "Not Available"
+                },
+            ],
         category_id: "Nature and Wildlife",
         seller_id: "javier",
         pages: [
@@ -80,13 +288,59 @@ export let destinos = [
         ],
         price: 600,
     },
+
+
     {
         id: "Puerto Madryn",
         title: "Puerto Madryn",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://millasxelmundo.com/wp-content/uploads/2021/11/img_9476.png",
-        description:
-            "The city of Puerto Madryn is the ideal place to explore nature and marine life, including whales, penguins, seals, and elephant seals.",
+            packages:[
+                {
+                title: "Puerto Madryn",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "25/08/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 569,
+                hotel: [
+                    {
+                        check_in: "14/08/2024 - 07:00 am",
+                        check_out: "25/08/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Available",
+                time: {
+                    start_date: "15/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "27/07/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 497,
+                hotel: [
+                    {
+                        check_in: "16/07/2024 - 07:00 am",
+                        check_out: "28/07/2024 - 10:00 am"
+                    }
+                ]
+                },
+            ],
         seller_id: "javier",
         category_id: "Nature and Wildlife",
         pages: [
@@ -95,13 +349,64 @@ export let destinos = [
         ],
         price: 600,
     },
+
+
     {
         id: "Palermo",
         title: "Palermo",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://turismo.buenosaires.gob.ar/sites/turismo/files/planetario_agua_1200_2.jpg",
-        description:
-            "Palermo is a modern and vibrant neighborhood of Buenos Aires, known for its parks, museums, bars, and restaurants.",
+            packages:[
+                {
+                title: "Palermo",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "07/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "24/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 589,
+                hotel: [
+                    {
+                        check_in: "08/09/2024 - 07:00 am",
+                        check_out: "25/09/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Available",
+                time: {
+                    start_date: "05/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "15/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 557,
+                hotel: [
+                    {
+                        check_in: "07/09/2024 - 07:00 am",
+                        check_out: "16/09/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                bus: "Available",
+                time: {
+                    start_date: "09/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "24/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 497,
+                hotel: [
+                    {
+                        check_in: "11/09/2024 - 07:00 am",
+                        check_out: "25/09/2024 - 10:00 am"
+                    }
+                ]
+                },
+            ],
         seller_id: "javier",
         category_id: "City and Urban Tourism",
         pages: [
@@ -110,13 +415,64 @@ export let destinos = [
         ],
         price: 650,
     },
+
+
     {
         id: "La Cumbrecita",
         title: "La Cumbrecita",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://i.postimg.cc/xdz8jS3z/lacumbrecita.png",
-        description:
-            "This small village is a picturesque place with European architecture, hiking trails, and beautiful waterfalls and streams.",
+            packages:[
+                {
+                title: "La Cumbrecita",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "13/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "30/04/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 514,
+                hotel: [
+                    {
+                        check_in: "13/04/2024 - 07:00 am",
+                        check_out: "30/04/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Available",
+                time: {
+                    start_date: "05/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "15/08/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 489,
+                hotel: [
+                    {
+                        check_in: "06/08/2024 - 07:00 am",
+                        check_out: "16/08/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                bus: "Available",
+                time: {
+                    start_date: "15/12/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "02/01/2025" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 457,
+                hotel: [
+                    {
+                        check_in: "16/12/2024 - 07:00 am",
+                        check_out: "02/01/2025 - 10:00 am"
+                    }
+                ]
+                },
+            ],
         seller_id: "javier",
         category_id: "Nature and Wildlife",
         pages: [
@@ -125,13 +481,54 @@ export let destinos = [
         ],
         price: 550,
     },
+
+
     {
         id: "Termas de Federación",
         title: "Termas de Federación",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://revistauncamino.com.ar/wp-content/uploads/2020/01/TERMAS-FEDERACION-3.jpg",
-        description:
-            "Las Termas de Federación are a tourist complex of hot springs, spas and water parks.",
+            packages:[
+                {
+                title: "Termas de Federacion",
+                plane: "Not Available",
+                time: [
+                    {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Available",
+                time: {
+                    start_date: "03/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "17/05/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 457,
+                hotel: [
+                    {
+                        check_in: "04/05/2024 - 07:00 am",
+                        check_out: "17/05/2025 - 10:00 am"
+                    }
+                ]
+                },
+            ],
         seller_id: "julia",
         category_id: "Nature and Wildlife",
         pages: [
@@ -140,13 +537,59 @@ export let destinos = [
         ],
         price: 550,
     },
+
+
     {
         id: "Purmamarca",
         title: "Purmamarca",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://i.ytimg.com/vi/sjUrN5FNR0k/maxresdefault.jpg",
-        description:
-            "This picturesque town is located at the foot of the Cerro de los Siete Colores and is known for its beautiful views, handicrafts and craft market.",
+            packages:[
+                {
+                title: "Purmamarca",
+                plane: "Not Available",
+                time: [
+                    {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                train: "Available",
+                time: {
+                    start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 489,
+                hotel: [
+                    {
+                        check_in: "18/07/2024 - 07:00 am",
+                        check_out: "04/07/2025 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                bus: "Available",
+                time: {
+                    start_date: "04/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "17/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 457,
+                hotel: [
+                    {
+                        check_in: "05/03/2024 - 07:00 am",
+                        check_out: "17/03/2024 - 10:00 am"
+                    }
+                ]
+                },
+            ],
         seller_id: "julia",
         category_id: "Nature and Wildlife",
         pages: [
@@ -155,13 +598,64 @@ export let destinos = [
         ],
         price: 650,
     },
+
+
     {
         id: "San Martín de los Andes",
         title: "San Martín de los Andes",
+        contienent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://www.rionegro.com.ar/wp-content/uploads/2022/04/00000000000000-7.jpg",
-        description:
-            "San Martín de los Andes is a beautiful city located in the Argentine Patagonia, surrounded by mountains and crystalline lakes. It is an ideal destination for lovers of nature and outdoor sports, such as skiing, snowboarding, hiking and fishing. The city has a wide gastronomic and hotel offer, as well as cultural and artistic activities. The famous Route of the Seven Lakes is one of the most prominent attractions in the area.",
+            packages:[
+                {
+                title: "San Martin de los Andes",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "05/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "17/11/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 987,
+                hotel: [
+                    {
+                        check_in: "05/11/2024 - 07:00 am",
+                        check_out: "17/11/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Available",
+                time: {
+                    start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 865,
+                hotel: [
+                    {
+                        check_in: "18/07/2024 - 07:00 am",
+                        check_out: "04/07/2025 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                bus: "Available",
+                time: {
+                    start_date: "04/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "17/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 794,
+                hotel: [
+                    {
+                        check_in: "05/03/2024 - 07:00 am",
+                        check_out: "17/03/2024 - 10:00 am"
+                    }
+                ]
+                },
+            ],
         seller_id: "julia",
         category_id: "Nature and Wildlife",
         pages: [
@@ -170,13 +664,59 @@ export let destinos = [
         ],
         price: 1050,
     },
+
+
     {
         id: "Ushuaia",
         title: "Ushuaia",
+        continent: "South America",
+        country: "Argentina",
         cover_photo:
             "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'Known as "the city at the end of the world", it is the southernmost point of Argentina. It has a great tourist offer, including a visit to the Tierra del Fuego National Park, the Beagle Channel and the famous End of the World Train.',
+            packages:[
+                {
+                title: "Ushuaia",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "17/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 1187,
+                hotel: [
+                    {
+                        check_in: "17/09/2024 - 07:00 am",
+                        check_out: "31/09/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Available",
+                time: {
+                    start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: 1065,
+                hotel: [
+                    {
+                        check_in: "24/10/2024 - 07:00 am",
+                        check_out: "06/10/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
         seller_id: "julia",
         category_id: "End of the World and Extreme Nature",
         pages: [
@@ -185,6 +725,456 @@ export let destinos = [
         ],
         price: 1200,
     },
+
+
+    {
+        id: "Tower Eiffel",
+        title: "Tower Eiffel",
+        continent: "Europe",
+        country: "France",
+        cover_photo:
+            "https://rare-gallery.com/uploads/posts/380788-4k-wallpaper.jpg",
+            packages:[
+                {
+                title: "Ushuaia",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "06/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "21/04/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 2389,
+                hotel: [
+                    {
+                        check_in: "06/04/2024 - 07:00 am",
+                        check_out: "21/04/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
+        seller_id: "julia",
+        category_id: "International",
+        pages: [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fworldwidetravel.tips%2Ffrance%2Fparis%2Feiffel-tower-in-paris%2F&psig=AOvVaw36r7zAQC0KWJzrrlUfnEOm&ust=1681268489188000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOiSpffroP4CFQAAAAAdAAAAABAE",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.toureiffel.paris%2Fen%2Fthe-monument%2Flights&psig=AOvVaw36r7zAQC0KWJzrrlUfnEOm&ust=1681268489188000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOiSpffroP4CFQAAAAAdAAAAABAK"
+        ],
+        price: 2500,
+    },
+
+
+    {
+        id: "Cancun",
+        title: "Cancun",
+        continent: "South America",
+        country: "Mexico",
+        cover_photo:
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblogs.portafolio.co%2Ftop-10-las-mejores-playas-cancun-debes-visitar&psig=AOvVaw0EwPrLcRiWdrjW9h-julse&ust=1681269077575000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDj8MLtoP4CFQAAAAAdAAAAABAE",
+            packages:[
+                {
+                title: "Cancun",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "06/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "24/01/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 2589,
+                hotel: [
+                    {
+                        check_in: "06/01/2024 - 07:00 am",
+                        check_out: "24/01/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
+        seller_id: "julia",
+        category_id: "International",
+        pages: [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.vivaaerobus.com%2Fplayas-de-cancun%2F&psig=AOvVaw0EwPrLcRiWdrjW9h-julse&ust=1681269077575000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDj8MLtoP4CFQAAAAAdAAAAABAK",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.vivaaerobus.com%2Fplayas-de-cancun%2F&psig=AOvVaw0EwPrLcRiWdrjW9h-julse&ust=1681269077575000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDj8MLtoP4CFQAAAAAdAAAAABAQ"
+        ],
+        price: 2700,
+    },
+
+
+    {
+        id: "Venecia",
+        title: "Venecia",
+        continent: "Europe",
+        country: "Italy",
+        cover_photo:
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpuzzlefactory.pl%2Fes%2Frompecabezas%2Fjugar%2Fpaisajes%2F226532-paisaje-de-venecia&psig=AOvVaw0BQaBphgyimdbEmaQGX80_&ust=1681269273768000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIj5p6DuoP4CFQAAAAAdAAAAABAK",
+            packages:[
+                {
+                title: "Venecia",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "14/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 2638,
+                hotel: [
+                    {
+                        check_in: "14/06/2024 - 07:00 am",
+                        check_out: "30/06/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
+        seller_id: "julia",
+        category_id: "International",
+        pages: [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fes%2Ffotos%2Fvenecia-italia&psig=AOvVaw0BQaBphgyimdbEmaQGX80_&ust=1681269273768000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIj5p6DuoP4CFQAAAAAdAAAAABAQ",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fviajes.nationalgeographic.com.es%2Fa%2Fvenecia-ciudad-italiana-suenos_12411&psig=AOvVaw0BQaBphgyimdbEmaQGX80_&ust=1681269273768000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIj5p6DuoP4CFQAAAAAdAAAAABAW"
+        ],
+        price: 2800,
+    },
+
+
+    {
+        id: "Cairo",
+        title: "Cairo",
+        continent: "Africa",
+        country: "Egipto",
+        cover_photo:
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Fvista-centro-ciudad-cairo-al-atardecer-egipto_13138018.htm&psig=AOvVaw29jomu0mMrCA49wX0RraGX&ust=1681269737616000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiyvf3voP4CFQAAAAAdAAAAABAK",
+            packages:[
+                {
+                title: "Cairo",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "14/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 2638,
+                hotel: [
+                    {
+                        check_in: "14/09/2024 - 07:00 am",
+                        check_out: "31/09/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
+        seller_id: "julia",
+        category_id: "International",
+        pages: [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fafrica-cairo-ciudad-built-structure-building-exterior-city-wallpaper-cnoxu&psig=AOvVaw29jomu0mMrCA49wX0RraGX&ust=1681269737616000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiyvf3voP4CFQAAAAAdAAAAABAQ",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FEgypt-Cairo-pyramid-desert_wallpapers.html&psig=AOvVaw29jomu0mMrCA49wX0RraGX&ust=1681269737616000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiyvf3voP4CFQAAAAAdAAAAABAW"
+        ],
+        price: 2800,
+    },
+
+
+    {
+        id: "Los Angeles",
+        title: "Los Angeles",
+        continent: "North America",
+        country: "United States",
+        cover_photo:
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.expedia.mx%2Ffotos%2Fcondado-de-los-angeles%2Flos-angeles.d178280&psig=AOvVaw22DrZYAdQOmuthC1SYflai&ust=1681270010422000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMDS2v_woP4CFQAAAAAdAAAAABAE",
+            packages:[  
+                {
+                title: "Los Angeles",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "02/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "21/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 2238,
+                hotel: [
+                    {
+                        check_in: "02/03/2024 - 07:00 am",
+                        check_out: "21/03/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
+        seller_id: "julia",
+        category_id: "International",
+        pages: [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.viajarlosangeles.com%2Fque-visitar-los-angeles.php&psig=AOvVaw22DrZYAdQOmuthC1SYflai&ust=1681270010422000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMDS2v_woP4CFQAAAAAdAAAAABAK",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.viajarlosangeles.com%2Fque-visitar-los-angeles.php&psig=AOvVaw22DrZYAdQOmuthC1SYflai&ust=1681270010422000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMDS2v_woP4CFQAAAAAdAAAAABAQ"
+        ],
+        price: 2400,
+    },
+
+
+    {
+        id: "Miami",
+        title: "Miami",
+        continent: "North America",
+        country: "United States",
+        cover_photo:
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lanacion.com.ar%2Festados-unidos%2Fcuales-son-las-seis-mejores-playas-de-miami-entre-surf-naturaleza-y-compras-nid12102022%2F&psig=AOvVaw1kK8DLMlGOZRjfC4uccH2P&ust=1681270151268000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjP6sLxoP4CFQAAAAAdAAAAABAE",
+            packages:[  
+                {
+                title: "Los Angeles",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "14/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "27/01/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 1838,
+                hotel: [
+                    {
+                        check_in: "14/01/2024 - 07:00 am",
+                        check_out: "27/01/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
+        seller_id: "julia",
+        category_id: "International",
+        pages: [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.infobae.com%2Famerica%2Feeuu%2F2022%2F10%2F31%2Fmiami-7-lugares-para-tomar-fotos-poco-conocidos%2F&psig=AOvVaw1kK8DLMlGOZRjfC4uccH2P&ust=1681270151268000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjP6sLxoP4CFQAAAAAdAAAAABAK",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.viajarmiami.com%2Fque-visitar.php&psig=AOvVaw1kK8DLMlGOZRjfC4uccH2P&ust=1681270151268000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjP6sLxoP4CFQAAAAAdAAAAABAQ"
+        ],
+        price: 2000,
+    },
+
+
+    {
+        id: "Bangkok",
+        title: "Bangkok",
+        continent: "Asia",
+        country: "Thailand",
+        cover_photo:
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixelz.cc%2Fimages%2Fwat-arun-buddhist-temple-bangkok-thailand-uhd-4k-wallpaper%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAE",
+            packages:[  
+                {
+                title: "Bangkok",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "27/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "10/05/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 3638,
+                hotel: [
+                    {
+                        check_in: "27/05/2024 - 07:00 am",
+                        check_out: "10/05/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
+        seller_id: "julia",
+        category_id: "International",
+        pages: [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgorunningtours.com%2Frun%2Fbangkok-old-town-walk-4k%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAL",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgorunningtours.com%2Frun%2Fbangkok-old-town-walk-4k%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAX"
+        ],
+        price: 4000,
+    },
+
+
+    {
+        id: "Bangkok",
+        title: "Bangkok",
+        continent: "Asia",
+        country: "Thailand",
+        cover_photo:
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixelz.cc%2Fimages%2Fwat-arun-buddhist-temple-bangkok-thailand-uhd-4k-wallpaper%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAE",
+            packages:[  
+                {
+                title: "Bangkok",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "27/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "10/05/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 3638,
+                hotel: [
+                    {
+                        check_in: "27/05/2024 - 07:00 am",
+                        check_out: "10/05/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
+        seller_id: "julia",
+        category_id: "International",
+        pages: [
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgorunningtours.com%2Frun%2Fbangkok-old-town-walk-4k%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAL",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgorunningtours.com%2Frun%2Fbangkok-old-town-walk-4k%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAX"
+        ],
+        price: 4000,
+    },
+
+
     {
         id: "Relleno",
         title: "Relleno",
@@ -200,6 +1190,8 @@ export let destinos = [
         ],
         price: 1000,
     },
+
+
     {
         id: "Relleno",
         title: "Relleno",
@@ -215,6 +1207,8 @@ export let destinos = [
         ],
         price: 1000,
     },
+
+
     {
         id: "Relleno",
         title: "Relleno",
@@ -230,6 +1224,8 @@ export let destinos = [
         ],
         price: 1000,
     },
+
+
     {
         id: "Relleno",
         title: "Relleno",
@@ -245,6 +1241,8 @@ export let destinos = [
         ],
         price: 1000,
     },
+
+
     {
         id: "Relleno",
         title: "Relleno",
@@ -260,126 +1258,8 @@ export let destinos = [
         ],
         price: 1000,
     },
-    {
-        id: "Relleno",
-        title: "Relleno",
-        cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
-        seller_id: "julia",
-        category_id: "Nature and Wildlife",
-        pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
-        ],
-        price: 1000,
-    },
-    {
-        id: "Relleno",
-        title: "Relleno",
-        cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
-        seller_id: "julia",
-        category_id: "Nature and Wildlife",
-        pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
-        ],
-        price: 1000,
-    },
-    {
-        id: "Relleno",
-        title: "Relleno",
-        cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
-        seller_id: "julia",
-        category_id: "Nature and Wildlife",
-        pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
-        ],
-        price: 1000,
-    },
-    {
-        id: "Relleno",
-        title: "Relleno",
-        cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
-        seller_id: "julia",
-        category_id: "Nature and Wildlife",
-        pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
-        ],
-        price: 1000,
-    },
-    {
-        id: "Relleno",
-        title: "Relleno",
-        cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
-        seller_id: "julia",
-        category_id: "Nature and Wildlife",
-        pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
-        ],
-        price: 1000,
-    },
-    {
-        id: "Relleno",
-        title: "Relleno",
-        cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
-        seller_id: "julia",
-        category_id: "Nature and Wildlife",
-        pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
-        ],
-        price: 1000,
-    },
-    {
-        id: "Relleno",
-        title: "Relleno",
-        cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
-        seller_id: "julia",
-        category_id: "Nature and Wildlife",
-        pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
-        ],
-        price: 1000,
-    },
-    {
-        id: "Relleno",
-        title: "Relleno",
-        cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
-        seller_id: "julia",
-        category_id: "Nature and Wildlife",
-        pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
-        ],
-        price: 1000,
-    },
+
+
     {
         id: "Relleno",
         title: "Relleno",
