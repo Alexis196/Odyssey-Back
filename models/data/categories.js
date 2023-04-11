@@ -9,6 +9,8 @@ export let categories = [
         name: "City and Urban Tourism",
     },{
         name: "End of the World and Extreme Nature",
+    },{
+        name: "International"
     }
 ]
 
