@@ -58,7 +58,7 @@ export let destinos = [
         id: "Las Cataratas del Iguazú",
         title: "Las Cataratas del Iguazú",
         continent: "South America",
-        country: "America",
+        country: "Argentina",
         cover_photo:
             "https://c4.wallpaperflare.com/wallpaper/447/232/16/iguazu-national-park-south-america-iguazu-river-misiones-wallpaper-preview.jpg",
             packages:[
@@ -1120,27 +1120,27 @@ export let destinos = [
 
 
     {
-        id: "Bangkok",
-        title: "Bangkok",
-        continent: "Asia",
-        country: "Thailand",
+        id: "Baviera",
+        title: "Baviera",
+        continent: "Europe",
+        country: "Germany",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixelz.cc%2Fimages%2Fwat-arun-buddhist-temple-bangkok-thailand-uhd-4k-wallpaper%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAE",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vivodeviajes.com%2Falemania%2Fbaviera%2F&psig=AOvVaw13xy6rxWDtHUxDd3Yci1yq&ust=1681312071158000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjkhNiNov4CFQAAAAAdAAAAABAE",
             packages:[  
                 {
-                title: "Bangkok",
+                title: "Baviera",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "27/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "10/05/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "30/08/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 3638,
                 hotel: [
                     {
-                        check_in: "27/05/2024 - 07:00 am",
-                        check_out: "10/05/2024 - 10:00 am"
+                        check_in: "13/08/2024 - 07:00 am",
+                        check_out: "30/08/2024 - 10:00 am"
                     }
                 ]
                 },
@@ -1168,112 +1168,346 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgorunningtours.com%2Frun%2Fbangkok-old-town-walk-4k%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAL",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgorunningtours.com%2Frun%2Fbangkok-old-town-walk-4k%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAX"
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com.ve%2FLocationPhotoDirectLink-g187309-d2059399-i69043214-Pure_Bavaria_Tours-Munich_Upper_Bavaria_Bavaria.html&psig=AOvVaw13xy6rxWDtHUxDd3Yci1yq&ust=1681312071158000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjkhNiNov4CFQAAAAAdAAAAABAK",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.10wallpaper.com%2Fes%2Fview%2FBavaria_Germany_Wallpaper.html&psig=AOvVaw13xy6rxWDtHUxDd3Yci1yq&ust=1681312071158000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjkhNiNov4CFQAAAAAdAAAAABAR"
         ],
         price: 4000,
     },
 
 
     {
-        id: "Relleno",
-        title: "Relleno",
+        id: "Istambul",
+        title: "Istambul",
+        continent: "Asia & Europe",
+        country: "Turkey",
         cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FTurkey-Istanbul-beautiful-city-scenery-sunset-buildings-houses-river_wallpapers.html&psig=AOvVaw0GQqegalSTVWe9EWuesZiT&ust=1681312409072000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD5lvmOov4CFQAAAAAdAAAAABAE",
+            packages:[  
+                {
+                title: "Istambul",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "04/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "17/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 4138,
+                hotel: [
+                    {
+                        check_in: "04/08/2024 - 07:00 am",
+                        check_out: "17/08/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
         seller_id: "julia",
-        category_id: "Nature and Wildlife",
+        category_id: "International",
         pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-kxioj&psig=AOvVaw0GQqegalSTVWe9EWuesZiT&ust=1681312409072000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD5lvmOov4CFQAAAAAdAAAAABAJ",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Far.pinterest.com%2Fpin%2F822118106981293839%2F&psig=AOvVaw0GQqegalSTVWe9EWuesZiT&ust=1681312409072000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD5lvmOov4CFQAAAAAdAAAAABAP"
         ],
-        price: 1000,
+        price: 4300,
     },
 
 
     {
-        id: "Relleno",
-        title: "Relleno",
+        id: "Beijing",
+        title: "Beijing",
+        continent: "Asia",
+        country: "China",
         cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pxfuel.com%2Fes%2Ffree-photo-juley&psig=AOvVaw0URG5nZnHeKch61oMg70jy&ust=1681312930622000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKi79_GQov4CFQAAAAAdAAAAABAK",
+            packages:[  
+                {
+                title: "Beijing",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "13/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "27/07/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 4438,
+                hotel: [
+                    {
+                        check_in: "13/07/2024 - 07:00 am",
+                        check_out: "27/07/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
         seller_id: "julia",
-        category_id: "Nature and Wildlife",
+        category_id: "International",
         pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-fjmkj&psig=AOvVaw0URG5nZnHeKch61oMg70jy&ust=1681312930622000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKi79_GQov4CFQAAAAAdAAAAABAE",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FShenwumen-trees-yellow-leaves-river-autumn-Beijing-China_wallpapers.html&psig=AOvVaw0URG5nZnHeKch61oMg70jy&ust=1681312930622000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKi79_GQov4CFQAAAAAdAAAAABAQ"
         ],
-        price: 1000,
+        price: 4600,
     },
 
 
     {
-        id: "Relleno",
-        title: "Relleno",
+        id: "London",
+        title: "London",
+        continent: "Europe",
+        country: "England",
         cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FLondon-England-Big-Ben-river-bridge-dusk-lights_wallpapers.html&psig=AOvVaw1b4dW6UG5h0NfrkcqphuPq&ust=1681313190769000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCID79-2Rov4CFQAAAAAdAAAAABAE",
+            packages:[  
+                {
+                title: "England",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 4138,
+                hotel: [
+                    {
+                        check_in: "26/10/2024 - 07:00 am",
+                        check_out: "07/11/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
         seller_id: "julia",
-        category_id: "Nature and Wildlife",
+        category_id: "International",
         pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.solofondos.com%2Ffondos-pantalla-londres.html&psig=AOvVaw1b4dW6UG5h0NfrkcqphuPq&ust=1681313190769000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCID79-2Rov4CFQAAAAAdAAAAABAK",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-pbnsl&psig=AOvVaw1b4dW6UG5h0NfrkcqphuPq&ust=1681313190769000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCID79-2Rov4CFQAAAAAdAAAAABAQ"
         ],
-        price: 1000,
+        price: 4300,
     },
 
 
     {
-        id: "Relleno",
-        title: "Relleno",
+        id: "Sidney",
+        title: "Sidney",
+        continent: "Oceania",
+        country: "Australia",
         cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
+            "https://tipsparatuviaje.com/wp-content/uploads/2019/08/opera-de-sidney-australia.jpg",
+            packages:[  
+                {
+                title: "Sidney",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 3738,
+                hotel: [
+                    {
+                        check_in: "26/10/2024 - 07:00 am",
+                        check_out: "07/11/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
         seller_id: "julia",
-        category_id: "Nature and Wildlife",
+        category_id: "International",
         pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgrowproexperience.com%2Faustralia%2Fque-ver-en-sydney%2F&psig=AOvVaw3acg49tF5GJReDVaquxE1I&ust=1681313449379000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD7y-mSov4CFQAAAAAdAAAAABAE",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgrowproexperience.com%2Faustralia%2Fque-ver-en-sydney%2F&psig=AOvVaw3acg49tF5GJReDVaquxE1I&ust=1681313449379000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD7y-mSov4CFQAAAAAdAAAAABAJ"
         ],
-        price: 1000,
+        price: 3800,
     },
 
 
     {
-        id: "Relleno",
-        title: "Relleno",
+        id: "Moscu",
+        title: "Moscu",
+        continent: "Europe",
+        country: "Rusia",
         cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
+            "https://tipsparatuviaje.com/wp-content/uploads/2019/08/plaza-roja-moscu-rusia.jpg",
+            packages:[  
+                {
+                title: "Moscu",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "26/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "05/12/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 4038,
+                hotel: [
+                    {
+                        check_in: "26/11/2024 - 07:00 am",
+                        check_out: "05/12/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
         seller_id: "julia",
-        category_id: "Nature and Wildlife",
+        category_id: "International",
         pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FRussia-Moscow-Palace-cathedral-bridge-lights_wallpapers.html&psig=AOvVaw2l8EYi_-LEoQ7aaiZg9KaV&ust=1681313809454000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjt75SUov4CFQAAAAAdAAAAABAK",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallspic.com%2Fes%2Ftag%2Fel_kremlin_de_moscu%2F3840x2160&psig=AOvVaw2l8EYi_-LEoQ7aaiZg9KaV&ust=1681313809454000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjt75SUov4CFQAAAAAdAAAAABAQ"
         ],
-        price: 1000,
+        price: 4200,
     },
 
 
     {
-        id: "Relleno",
-        title: "Relleno",
+        id: "Orlando",
+        title: "Orlando",
+        continent: "North America",
+        country: "United States",
         cover_photo:
-            "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-        description:
-            'It is a picturesque mountain town located in the heart of Patagonia. Surrounded by lakes and forests, it offers outdoor activities such as hiking, skiing and sport fishing.',
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperbetter.com%2Fes%2Fhd-wallpaper-akubi&psig=AOvVaw3uJaY1cxQEyErcGD5snRZy&ust=1681314995778000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjp1sqYov4CFQAAAAAdAAAAABAF",
+            packages:[  
+                {
+                title: "Orlando",
+                plane: "Available",
+                time: [
+                    {
+                    start_date: "13/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "30/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 2338,
+                hotel: [
+                    {
+                        check_in: "13/03/2024 - 07:00 am",
+                        check_out: "30/03/2024 - 10:00 am"
+                    }
+                ]
+                },
+
+                {
+                train: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+
+                {
+                bus: "Not Available",
+                time: {
+                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                    },
+                price: "Not Available",
+                hotel: "Not Available"
+                },
+            ],
         seller_id: "julia",
-        category_id: "Nature and Wildlife",
+        category_id: "International",
         pages: [
-            "https://media.staticontent.com/media/pictures/6a95ecbf-8ab2-4797-87c2-d3ae6e41b07d",
-            "https://tripin.travel/wp-content/uploads/2017/02/correntoso-2.jpg"
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-optva&psig=AOvVaw3uJaY1cxQEyErcGD5snRZy&ust=1681314995778000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjp1sqYov4CFQAAAAAdAAAAABAL",
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-fvgwk&psig=AOvVaw3uJaY1cxQEyErcGD5snRZy&ust=1681314995778000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjp1sqYov4CFQAAAAAdAAAAABAR"
         ],
-        price: 1000,
+        price: 2500,
     },
     
 ];
