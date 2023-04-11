@@ -1,9 +1,6 @@
 import Joi from 'joi-oid';
 
 const schema = Joi.object({
-    seller_id: Joi
-        .objectId()
-        .required(),
     title: Joi
         .string()
         .required()

@@ -14,10 +14,6 @@ export let destinos = [
             "https://anduma.tur.ar/wp-content/uploads/2021/04/faf36f_323792ea108e49378282fe19bc560c51_mv2.jpg",
         ],
         price: 1050,
-        detail: [
-            {
-            },
-        ],
     },
     {
         id: "Las Cataratas del Iguazú",
@@ -29,7 +25,6 @@ export let destinos = [
         seller_id: "adrian",
         pages: [
             "https://c0.wallpaperflare.com/preview/654/738/493/nature-summer-water-river.jpg",
-            "https://i.postimg.cc/BbXRYTHz/shingeki-no-kyojin-001-02.png",
             "https://dailyweb.com.ar/data/img_cont/img_imagenes/img_gr/42711.jpg",
         ],
         price: 500,
