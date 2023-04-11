@@ -1,6 +1,10 @@
 import Joi from "joi"
 
 const schema = Joi.object({
+    name: Joi.string().min(3).max(20).messages({
+        "string.min": "The name must have at least 3 characters",
+        "string.max": "The name must have a maximum of 20 characters",
+    }),
     mail: Joi
         .string()
         .required()
