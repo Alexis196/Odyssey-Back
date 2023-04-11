@@ -33,20 +33,20 @@ const todos = {
                 // .limit(pagination.limit > 0 ? pagination.limit : 0)
                 // .populate("category_id", "name -_id")
 
-            if(destino.length){
+            if (destino.length) {
                 return res
-                .status(200)
-                .json({
-                    success: true,
-                    destino
-                })
-            }else{
+                    .status(200)
+                    .json({
+                        success: true,
+                        destino
+                    })
+            } else {
                 return res
-                .status(404)
-                .json({
-                    success: false,
-                    message: 'No destination found'
-                })
+                    .status(404)
+                    .json({
+                        success: false,
+                        message: 'No destination found'
+                    })
             }
 
         } catch (error) {

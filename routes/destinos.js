@@ -13,13 +13,13 @@ import destinoSchemas from '../schemas/destino.js'
 import validator from '../middlewares/validator.js'
 
 let router = express.Router()
-const {create} = destinos
-const {getOne} = oneDest
-const {destroy} = destroyD
-const {update} = updateD
-const {read} = todos
+const { create } = destinos
+const { getOne } = oneDest
+const { destroy } = destroyD
+const { update } = updateD
+const { read } = todos
 
-router.post('/',  passport.authenticate("jwt", { session: false }),validator(destinoSchemas), exist_destino, finds_id, create)
+router.post('/', passport.authenticate("jwt", { session: false }), validator(destinoSchemas), exist_destino, finds_id, create)
 
 router.get('/', passport.authenticate('jwt', { session: false }), read)
 router.get('/:id', passport.authenticate('jwt', { session: false }), getOne)
