@@ -27,7 +27,7 @@ const todos = {
             }
 
             let destino = await Destino.find(query)
-                // .select("title category_id cover_photo _id")
+                .select("-createdAt -updatedAt -__v")
                 // .sort(order)
                 // .skip(skip)
                 // .limit(pagination.limit > 0 ? pagination.limit : 0)
