@@ -6,10 +6,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://anduma.tur.ar/wp-content/uploads/2021/04/faf36f_323792ea108e49378282fe19bc560c51_mv2.jpg",
+        description:
+            "The city of San Carlos de Bariloche is located on the western side of the province of Río Negro. It is one of the most populated Argentine cities in the Patagonian Andes. It has a population of 108,250 inhabitants and stands out, due to its magnitude and geographical location, as an important urban center.",
         packages:[
             {
             title: "Bariloche",
             plane: "Available",
+            stock: 25,
             time: [
                 {
                 start_date: "08/12/2023",  // Despues reviso si se puede pasar por el calendar de google.
@@ -26,6 +29,7 @@ export let destinos = [
             },
             {
             train: "Not Available",
+            stock: 35,
             time: {
                 start_date: " Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                 finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
@@ -35,6 +39,7 @@ export let destinos = [
             },
             {
             bus: "Available",
+            stock: 28,
             time: {
                 start_date: "20/12/2023",  // Despues reviso si se puede pasar por el calendar de google.
                 finish_date: "25/12/2023" // Despues reviso si se puede pasar por el calendar de google.
@@ -61,10 +66,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://c4.wallpaperflare.com/wallpaper/447/232/16/iguazu-national-park-south-america-iguazu-river-misiones-wallpaper-preview.jpg",
+        description: 
+            "There are more than 2 km of waterfalls over 70 meters high, a spectacular manifestation of one of the planet's increasingly scarce resources: water. The falls run along cliffs and islets, distributed in a crescent that forms this geographical feature.",
             packages:[
                 {
                 title: "Las Cataratas del Iguazú",
                 plane: "Available",
+                stock: 37,
                 time: [
                     {
                     start_date: "02/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
@@ -82,6 +90,7 @@ export let destinos = [
 
                 {
                 train: "Not Available",
+                stock: "Not Available",
                 time: {
                     start_date: " Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
@@ -92,6 +101,7 @@ export let destinos = [
 
                 {
                 bus: "Available",
+                stock: 17,
                 time: {
                     start_date: "20/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "10/02/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -123,10 +133,12 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://viatgesrovira.com/wp-content/uploads/2020/01/CALAFATE.jpg",
+        description: "The land of the glaciers presents, in addition to the charm and majesty of the most beautiful and impressive ice blocks in the world, a city full of life and surprises. It is a safe, clean and green place, with numerous natural attractions and a lot of Patagonian history.",
         packages:[
                 {
                 title: "Calafate",
                 plane: "Available",
+                stock: 7,
                 time: [
                     {
                     start_date: "12/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
@@ -144,6 +156,7 @@ export let destinos = [
 
                 {
                 train: "Not Available",
+                stock: 18,
                 time: {
                     start_date: "20/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "10/02/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -159,6 +172,7 @@ export let destinos = [
 
                 {
                 bus: "Not Available",
+                stock: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
@@ -185,10 +199,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://1.bp.blogspot.com/-2-6kA3yOl7s/XPfBKGn-SEI/AAAAAAAAG3A/v2YK8ruMUPsCplnd4otTciCFLDh31XATgCPcBGAYYCw/s1600/Parque%2Bnacional%2Bel%2Bleoncito%2Bactividades%2Binformacion%2Btrekking%2Bvisitas.jpg",
+        description: 
+        "The national park's management plan highlights the values to be conserved in the park: exceptional atmospheric conditions; the water system of the western slope of the Tontal mountain range and its associated biodiversity; three ecoregions represented: Monte de sierras y bolsones, Puna and Altos Andes; the presence of endemic species and species with some degree of threat; species of functional value; paleontological resources of high scientific value; and cultural resources.",
             packages:[
                 {
-                title: "Parque Nacional El Leoncito",
+                //title: "Parque Nacional El Leoncito", 
                 plane: "Not Available",
+                stock: "Not Available",
                 time: [
                     {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
@@ -201,6 +218,7 @@ export let destinos = [
 
                 {
                 train: "Available",
+                stock: 29,
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "29/06/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -216,6 +234,7 @@ export let destinos = [
 
                 {
                 bus: "Available",
+                stock: 63,
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -241,10 +260,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://www.serargentino.com/public/images/2020/07/15947388080-parque_nacional_chaco_casa_guardaparque-773x458.jpg",
+        description: 
+        "Chaco National Park is a protected area of 14,981 hectares around the Negro River, near the town of Capitan Solari, in the central-eastern part of the province, which thanks to its warm subtropical climate is home to large lagoons and lush jungle vegetation alternating with palm groves and marshes.",
             packages:[
                 {
                 title: "Parque Nacional Chaco",
                 plane: "Not Available",
+                stock: "Not Available",
                 time: [
                     {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
@@ -257,6 +279,7 @@ export let destinos = [
 
                 {
                 train: "Available",
+                stock: 13,
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "29/06/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -272,6 +295,7 @@ export let destinos = [
 
                 {
                 bus: "Available",
+                stock: 7,
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -297,10 +321,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://millasxelmundo.com/wp-content/uploads/2021/11/img_9476.png",
+        description: 
+            "Puerto Madryn, also known as 'Madryn', is a city in the northeast of the province of Chubut, Argentina, head of the department of Biedma. It is located in front of the Argentinean sea in the Atlantic Ocean. Its population in 2023 is approximately 127,914 inhabitants.",
             packages:[
                 {
                 title: "Puerto Madryn",
                 plane: "Available",
+                stock: 18,
                 time: [
                     {
                     start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
@@ -318,6 +345,7 @@ export let destinos = [
 
                 {
                 train: "Not Available",
+                stock: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
@@ -328,6 +356,7 @@ export let destinos = [
 
                 {
                 bus: "Available",
+                stock: 5,
                 time: {
                     start_date: "15/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "27/07/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -358,10 +387,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://turismo.buenosaires.gob.ar/sites/turismo/files/planetario_agua_1200_2.jpg",
+        description: 
+            "It is a residential and recreational neighborhood. Within its boundaries are the so-called 'Bosques de Palermo' (Palermo Woods), which include large parks and green spaces. It is an important gastronomic, cultural and audiovisual center and is one of the favorite destinations for tourists visiting the city.",
             packages:[
                 {
                 title: "Palermo",
                 plane: "Available",
+                stock: 28,
                 time: [
                     {
                     start_date: "07/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
@@ -379,6 +411,7 @@ export let destinos = [
 
                 {
                 train: "Available",
+                stock: 47,
                 time: {
                     start_date: "05/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "15/09/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -394,6 +427,7 @@ export let destinos = [
 
                 {
                 bus: "Available",
+                stock: 94,
                 time: {
                     start_date: "09/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "24/09/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -424,10 +458,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://i.postimg.cc/xdz8jS3z/lacumbrecita.png",
+        description: 
+            "La Cumbrecita, is located to the west of the Calamuchita Valley, hidden among the large sierras, almost 1500 meters above sea level. It is located 125 Km. from the city of Córdoba. It is also a few kilometers from the highest peak of the sierras of Córdoba, the Cerro Champaquí, with 2760 meters above sea level.",
             packages:[
                 {
                 title: "La Cumbrecita",
                 plane: "Available",
+                stock: 16,
                 time: [
                     {
                     start_date: "13/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
@@ -445,6 +482,7 @@ export let destinos = [
 
                 {
                 train: "Available",
+                stock: 32,
                 time: {
                     start_date: "05/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "15/08/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -460,6 +498,7 @@ export let destinos = [
 
                 {
                 bus: "Available",
+                stock: 21,
                 time: {
                     start_date: "15/12/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "02/01/2025" // Despues reviso si se puede pasar por el calendar de google.
@@ -490,10 +529,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://revistauncamino.com.ar/wp-content/uploads/2020/01/TERMAS-FEDERACION-3.jpg",
+        description: 
+            "Inauguradas en 1995, las termas de Federación son la primera perforación termal de la mesopotamia argentina. Sus aguas surgen desde una profundidad de 1.260 metros y pertenecen al 'Acuífero Tacuarembó' o 'Acuífero Guaraní', del que también se nutren las termas del vecino país Uruguay y las del sur de Brasil.",
             packages:[
                 {
                 title: "Termas de Federacion",
                 plane: "Not Available",
+                stock: "Not Available",
                 time: [
                     {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
@@ -506,6 +548,7 @@ export let destinos = [
 
                 {
                 train: "Not Available",
+                stock: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
@@ -516,6 +559,7 @@ export let destinos = [
 
                 {
                 bus: "Available",
+                stock: 51,
                 time: {
                     start_date: "03/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "17/05/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -546,10 +590,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://i.ytimg.com/vi/sjUrN5FNR0k/maxresdefault.jpg",
+        description: 
+            "The town of Purmamarca is a National Historic Site and is also the gateway to the Puna del Sur of Jujuy through the Cuesta de Lipan and the Salinas Grandes. It is famous for its Cerro de los Siete Colores and for its location in the Quebrada de Humahuaca which is a UNESCO World Heritage Site.",
             packages:[
                 {
                 title: "Purmamarca",
                 plane: "Not Available",
+                stock: "Not Available",
                 time: [
                     {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
@@ -562,6 +609,7 @@ export let destinos = [
 
                 {
                 train: "Available",
+                stock: 14,
                 time: {
                     start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -577,6 +625,7 @@ export let destinos = [
 
                 {
                 bus: "Available",
+                stock: 26,
                 time: {
                     start_date: "04/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "17/03/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -607,10 +656,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://www.rionegro.com.ar/wp-content/uploads/2022/04/00000000000000-7.jpg",
+        description: 
+            "San Martín de los Andes was founded on February 4, 1898 with the purpose of strategically establishing a settlement near the border with Chile due to the territorial conflicts that existed at that time. The first settlement was developed on a territory belonging, at that time, to the Mapuche Curruhuinca community.",
             packages:[
                 {
                 title: "San Martin de los Andes",
                 plane: "Available",
+                stock: 74,
                 time: [
                     {
                     start_date: "05/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
@@ -628,6 +680,7 @@ export let destinos = [
 
                 {
                 train: "Available",
+                stock: 39,
                 time: {
                     start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -643,6 +696,7 @@ export let destinos = [
 
                 {
                 bus: "Available",
+                stock: 42,
                 time: {
                     start_date: "04/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "17/03/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -673,10 +727,13 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
+        description: 
+            "The city of Ushuaia, capital of the Province of Tierra del Fuego, Antarctica and South Atlantic Islands, is located on the shores of the Beagle Channel, surrounded by the Martial mountain range. It is considered the southernmost city in the world and has an irregular relief: glacial valleys, peat bogs and mountain ranges.",
             packages:[
                 {
                 title: "Ushuaia",
                 plane: "Available",
+                stock: 31,
                 time: [
                     {
                     start_date: "17/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
@@ -694,6 +751,7 @@ export let destinos = [
 
                 {
                 train: "Available",
+                stock: 12,
                 time: {
                     start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
@@ -709,6 +767,7 @@ export let destinos = [
 
                 {
                 bus: "Not Available",
+                stock: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
@@ -728,16 +787,19 @@ export let destinos = [
 
 
     {
-        id: "Tower Eiffel",
-        title: "Tower Eiffel",
+        id: "Paris",
+        title: "Paris",
         continent: "Europe",
         country: "France",
         cover_photo:
-            "https://rare-gallery.com/uploads/posts/380788-4k-wallpaper.jpg",
+            "https://e0.pxfuel.com/wallpapers/937/600/desktop-wallpaper-paris-paris-france-landscape.jpg",
+        description: 
+            "The city of Paris, within its narrow administrative boundaries, has a population of 2,273,305 inhabitants in 2015. However, in the 20th century, the Paris metropolitan area expanded beyond the boundaries of the municipality of Paris, and is today, with a population of 12,997,058 inhabitants in 2020, the most populous metropolitan area on the European continent and the 28th in the world.4",
             packages:[
                 {
-                title: "Ushuaia",
+                title: "Paris",
                 plane: "Available",
+                stock: 28,
                 time: [
                     {
                     start_date: "06/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
@@ -755,6 +817,7 @@ export let destinos = [
 
                 {
                 train: "Not Available",
+                stock: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
@@ -765,6 +828,7 @@ export let destinos = [
 
                 {
                 bus: "Not Available",
+                stock: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
@@ -776,8 +840,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fworldwidetravel.tips%2Ffrance%2Fparis%2Feiffel-tower-in-paris%2F&psig=AOvVaw36r7zAQC0KWJzrrlUfnEOm&ust=1681268489188000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOiSpffroP4CFQAAAAAdAAAAABAE",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.toureiffel.paris%2Fen%2Fthe-monument%2Flights&psig=AOvVaw36r7zAQC0KWJzrrlUfnEOm&ust=1681268489188000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOiSpffroP4CFQAAAAAdAAAAABAK"
+            "https://worldwidetravel.tips/wp-content/uploads/2020/07/Paris-Eiffel-Tower-_75.jpg.webp",
+            "https://p4.wallpaperbetter.com/wallpaper/384/581/117/france-paris-eiffel-tower-world-wallpaper-preview.jpg"
         ],
         price: 2500,
     },
@@ -789,7 +853,9 @@ export let destinos = [
         continent: "South America",
         country: "Mexico",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblogs.portafolio.co%2Ftop-10-las-mejores-playas-cancun-debes-visitar&psig=AOvVaw0EwPrLcRiWdrjW9h-julse&ust=1681269077575000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDj8MLtoP4CFQAAAAAdAAAAABAE",
+            "https://blogs.portafolio.co/wp-content/uploads/2022/02/playas-cancun.jpg",
+        description: 
+            "Located on the northeast coast of the state of Quintana Roo, its scenic beauty and landscape around its beaches, the extension and biodiversity of its reefs, its islands, lagoons, cenotes, estuaries, as well as the great variety of flora and fauna it has, has allowed sustainable planning, making Cancun one of the most modern and important cities in Latin America, besides being the most recognized Mexican tourist destination worldwide.",
             packages:[
                 {
                 title: "Cancun",
@@ -832,8 +898,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.vivaaerobus.com%2Fplayas-de-cancun%2F&psig=AOvVaw0EwPrLcRiWdrjW9h-julse&ust=1681269077575000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDj8MLtoP4CFQAAAAAdAAAAABAK",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.vivaaerobus.com%2Fplayas-de-cancun%2F&psig=AOvVaw0EwPrLcRiWdrjW9h-julse&ust=1681269077575000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDj8MLtoP4CFQAAAAAdAAAAABAQ"
+            "https://i0.wp.com/blog.vivaaerobus.com/wp-content/uploads/2019/12/Mejores-Playas-de-Canc%C3%BAn.jpg?resize=1280%2C640&ssl=1",
+            "https://i0.wp.com/blog.vivaaerobus.com/wp-content/uploads/2019/12/Playas-de-Cancun-Forum.jpg?w=700&ssl=1"
         ],
         price: 2700,
     },
@@ -845,7 +911,9 @@ export let destinos = [
         continent: "Europe",
         country: "Italy",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpuzzlefactory.pl%2Fes%2Frompecabezas%2Fjugar%2Fpaisajes%2F226532-paisaje-de-venecia&psig=AOvVaw0BQaBphgyimdbEmaQGX80_&ust=1681269273768000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIj5p6DuoP4CFQAAAAAdAAAAABAK",
+            "https://assets.puzzlefactory.pl/puzzle/226/532/original.webp",
+        description: 
+        "Venice is a magical city that seems to float on the waters of the northern end of the Adriatic. It is built on 118 islands consolidated with wooden piles, connected by 400 pedestrian bridges and 170 navigable canals, which facilitate the movement of the local population.",
             packages:[
                 {
                 title: "Venecia",
@@ -888,8 +956,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fes%2Ffotos%2Fvenecia-italia&psig=AOvVaw0BQaBphgyimdbEmaQGX80_&ust=1681269273768000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIj5p6DuoP4CFQAAAAAdAAAAABAQ",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fviajes.nationalgeographic.com.es%2Fa%2Fvenecia-ciudad-italiana-suenos_12411&psig=AOvVaw0BQaBphgyimdbEmaQGX80_&ust=1681269273768000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIj5p6DuoP4CFQAAAAAdAAAAABAW"
+            "https://www.10wallpaper.com/wallpaper/1366x768/1605/Europe_Gondolas_River-Venice_Italy_Travel_HD_wallpaper_1366x768.jpg",
+            "https://viajes.nationalgeographic.com.es/medio/2018/02/19/vencia-gran-canal_9670bbbd.jpg"
         ],
         price: 2800,
     },
@@ -901,7 +969,9 @@ export let destinos = [
         continent: "Africa",
         country: "Egipto",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Fvista-centro-ciudad-cairo-al-atardecer-egipto_13138018.htm&psig=AOvVaw29jomu0mMrCA49wX0RraGX&ust=1681269737616000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiyvf3voP4CFQAAAAAdAAAAABAK",
+            "https://s1.best-wallpaper.net/wallpaper/m/1802/Cairo-pyramid-camel-sands-palm-tree-sun-Egypt_m.webp",
+        description: 
+            "Cairo (Arabic: القاهرة,al-Qāhirah) is the capital of Egypt and one of the largest cities in Africa and the Middle East, with a total population exceeding 16 million people. It is also the 13th largest city in the world.",
             packages:[
                 {
                 title: "Cairo",
@@ -944,8 +1014,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fafrica-cairo-ciudad-built-structure-building-exterior-city-wallpaper-cnoxu&psig=AOvVaw29jomu0mMrCA49wX0RraGX&ust=1681269737616000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiyvf3voP4CFQAAAAAdAAAAABAQ",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FEgypt-Cairo-pyramid-desert_wallpapers.html&psig=AOvVaw29jomu0mMrCA49wX0RraGX&ust=1681269737616000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiyvf3voP4CFQAAAAAdAAAAABAW"
+            "https://w0.peakpx.com/wallpaper/599/148/HD-wallpaper-night-view-over-cairo-city-view-cairo-egypt-night.jpg",
+            "https://s1.best-wallpaper.net/wallpaper/m/1706/Egypt-Cairo-pyramid-desert_m.webp"
         ],
         price: 2800,
     },
@@ -957,7 +1027,9 @@ export let destinos = [
         continent: "North America",
         country: "United States",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.expedia.mx%2Ffotos%2Fcondado-de-los-angeles%2Flos-angeles.d178280&psig=AOvVaw22DrZYAdQOmuthC1SYflai&ust=1681270010422000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMDS2v_woP4CFQAAAAAdAAAAABAE",
+            "https://p4.wallpaperbetter.com/wallpaper/678/201/305/los-angeles-santa-monica-beach-silhouette-of-trees-wallpaper-preview.jpg",
+        description: 
+            "Los Angeles has a total area of 1302.76 km², of which 1214.9 km² is land, and the rest (87.86 km²) is water. This makes it the fourteenth largest city in the United States. It measures 71 km longitudinally and 47 km from east to west.",
             packages:[  
                 {
                 title: "Los Angeles",
@@ -1000,8 +1072,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.viajarlosangeles.com%2Fque-visitar-los-angeles.php&psig=AOvVaw22DrZYAdQOmuthC1SYflai&ust=1681270010422000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMDS2v_woP4CFQAAAAAdAAAAABAK",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.viajarlosangeles.com%2Fque-visitar-los-angeles.php&psig=AOvVaw22DrZYAdQOmuthC1SYflai&ust=1681270010422000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMDS2v_woP4CFQAAAAAdAAAAABAQ"
+            "https://p4.wallpaperbetter.com/wallpaper/819/356/1016/city-sunset-california-palm-trees-los-angeles-hd-wallpaper-preview.jpg",
+            "https://p4.wallpaperbetter.com/wallpaper/829/370/561/sky-palm-tree-tree-arecales-wallpaper-preview.jpg"
         ],
         price: 2400,
     },
@@ -1013,7 +1085,9 @@ export let destinos = [
         continent: "North America",
         country: "United States",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lanacion.com.ar%2Festados-unidos%2Fcuales-son-las-seis-mejores-playas-de-miami-entre-surf-naturaleza-y-compras-nid12102022%2F&psig=AOvVaw1kK8DLMlGOZRjfC4uccH2P&ust=1681270151268000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjP6sLxoP4CFQAAAAAdAAAAABAE",
+            "https://www.lanacion.com.ar/resizer/GhbB0d4-pB2F2EeCaZm3aygcVDM=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/3BE4TAFBFJAHJEAX765IRQDNMM.jpg",
+        description: 
+            "Surrounded by the Atlantic Ocean and the Everglades, the city extends over an area of 143.15 square kilometers. It has a very mild climate, known as tropical climate; with very hot summers sometimes accompanied by thunderstorms. Winter is warm and dry (the best time to travel to Miami).",
             packages:[  
                 {
                 title: "Los Angeles",
@@ -1069,7 +1143,9 @@ export let destinos = [
         continent: "Asia",
         country: "Thailand",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixelz.cc%2Fimages%2Fwat-arun-buddhist-temple-bangkok-thailand-uhd-4k-wallpaper%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAE",
+            "https://w0.peakpx.com/wallpaper/932/1011/HD-wallpaper-bangkok-modern-buildings-nightscapes-boats-thailand-asia.jpg",
+        description: 
+            "It is also considered the political, social and economic center not only of Thailand but also of the Indochinese peninsula. The city is located at the mouth of the Chao Phraya River and has a population of 6,355,144 inhabitants while the greater Bangkok area has 11,971,000 inhabitants (according to the 2008 census).",
             packages:[  
                 {
                 title: "Bangkok",
@@ -1112,8 +1188,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgorunningtours.com%2Frun%2Fbangkok-old-town-walk-4k%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAL",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgorunningtours.com%2Frun%2Fbangkok-old-town-walk-4k%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAX"
+            "https://gorunningtours.com/wp-content/uploads/2015/06/bangkok_oldtown_10km_750x500_2-725x483.jpg",
+            "https://w0.peakpx.com/wallpaper/912/197/HD-wallpaper-bangkok-cityscapes-thai-cities-modern-buildings-thailand-asia-summer-asian-cities.jpg"
         ],
         price: 4000,
     },
@@ -1125,7 +1201,9 @@ export let destinos = [
         continent: "Europe",
         country: "Germany",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vivodeviajes.com%2Falemania%2Fbaviera%2F&psig=AOvVaw13xy6rxWDtHUxDd3Yci1yq&ust=1681312071158000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjkhNiNov4CFQAAAAAdAAAAABAE",
+            "https://w0.peakpx.com/wallpaper/724/311/HD-wallpaper-landscape-in-bavaria-germany-bavaria-sun-bridge-mountains-river-road-germany-church-europe.jpg",
+        description: 
+            "Bavaria encompasses parts of the Eastern Alps and the Danube, Europe's second largest river. North of the Danube is the Bavarian Forest and the Fichtelgebirge. The most populated cities are Munich, Nuremberg, Augsburg, Regensburg, Ingolstadt, Ingolstadt, Fürth and Würzburg.",
             packages:[  
                 {
                 title: "Baviera",
@@ -1168,8 +1246,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com.ve%2FLocationPhotoDirectLink-g187309-d2059399-i69043214-Pure_Bavaria_Tours-Munich_Upper_Bavaria_Bavaria.html&psig=AOvVaw13xy6rxWDtHUxDd3Yci1yq&ust=1681312071158000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjkhNiNov4CFQAAAAAdAAAAABAK",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.10wallpaper.com%2Fes%2Fview%2FBavaria_Germany_Wallpaper.html&psig=AOvVaw13xy6rxWDtHUxDd3Yci1yq&ust=1681312071158000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjkhNiNov4CFQAAAAAdAAAAABAR"
+            "https://media-cdn.tripadvisor.com/media/photo-s/04/1d/84/0e/pure-bavaria-tours.jpg",
+            "https://www.10wallpaper.com/wallpaper/1366x768/1108/Bavaria_Germany_Wallpaper_1366x768.jpg"
         ],
         price: 4000,
     },
@@ -1181,7 +1259,9 @@ export let destinos = [
         continent: "Asia & Europe",
         country: "Turkey",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FTurkey-Istanbul-beautiful-city-scenery-sunset-buildings-houses-river_wallpapers.html&psig=AOvVaw0GQqegalSTVWe9EWuesZiT&ust=1681312409072000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD5lvmOov4CFQAAAAAdAAAAABAE",
+            "https://s1.best-wallpaper.net/wallpaper/m/1601/Turkey-Istanbul-beautiful-city-scenery-sunset-buildings-houses-river_m.webp",
+        description: 
+            "Istanbul (Turkish: İstanbul, pronounced /istanbuɫ/ ( listen)), formerly known as Byzantium and Constantinople, is the most populous city in Turkey and the historical, cultural and economic center of the country. It is a transcontinental city, located on the Bosphorus Strait, which separates Europe and Asia, between the Sea of Marmara and the Black Sea. With more than 15 million inhabitants, it is one of the most populated cities in the world and the most populated in Europe. The majority of the population is Muslim, although there are minorities of Christians (68,000) and Jews (22,000).",
             packages:[  
                 {
                 title: "Istambul",
@@ -1224,8 +1304,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-kxioj&psig=AOvVaw0GQqegalSTVWe9EWuesZiT&ust=1681312409072000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD5lvmOov4CFQAAAAAdAAAAABAJ",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Far.pinterest.com%2Fpin%2F822118106981293839%2F&psig=AOvVaw0GQqegalSTVWe9EWuesZiT&ust=1681312409072000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD5lvmOov4CFQAAAAAdAAAAABAP"
+            "https://w0.peakpx.com/wallpaper/547/973/HD-wallpaper-galata-tower-bosphorus-istanbul-evening-sunset-ships-istanbul-cityscape-istanbul-panorama-turkey.jpg",
+            "https://img.freepik.com/fotos-premium/paisaje-urbano-centro-estambul-turquia_255553-3288.jpg"
         ],
         price: 4300,
     },
@@ -1237,7 +1317,9 @@ export let destinos = [
         continent: "Asia",
         country: "China",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pxfuel.com%2Fes%2Ffree-photo-juley&psig=AOvVaw0URG5nZnHeKch61oMg70jy&ust=1681312930622000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKi79_GQov4CFQAAAAAdAAAAABAK",
+            "https://p1.pxfuel.com/preview/841/652/29/beijing-china-the-scenery-silhouette.jpg",
+        description: 
+            "Beijing is the capital of the People's Republic of China, has more than 17 million inhabitants and is the second largest city in the country after Shanghai. The history of Beijing is marked by the invasions of the Mongols, who first razed the city to the ground, then rebuilt it and named it capital.",
             packages:[  
                 {
                 title: "Beijing",
@@ -1280,8 +1362,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-fjmkj&psig=AOvVaw0URG5nZnHeKch61oMg70jy&ust=1681312930622000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKi79_GQov4CFQAAAAAdAAAAABAE",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FShenwumen-trees-yellow-leaves-river-autumn-Beijing-China_wallpapers.html&psig=AOvVaw0URG5nZnHeKch61oMg70jy&ust=1681312930622000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKi79_GQov4CFQAAAAAdAAAAABAQ"
+            "https://w0.peakpx.com/wallpaper/136/285/HD-wallpaper-landscape-china.jpg",
+            "https://s1.best-wallpaper.net/wallpaper/m/1811/Shenwumen-trees-yellow-leaves-river-autumn-Beijing-China_m.webp"
         ],
         price: 4600,
     },
@@ -1293,7 +1375,9 @@ export let destinos = [
         continent: "Europe",
         country: "England",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FLondon-England-Big-Ben-river-bridge-dusk-lights_wallpapers.html&psig=AOvVaw1b4dW6UG5h0NfrkcqphuPq&ust=1681313190769000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCID79-2Rov4CFQAAAAAdAAAAABAE",
+            "https://s1.best-wallpaper.net/wallpaper/m/2107/London-England-Big-Ben-river-bridge-dusk-lights_m.webp",
+        description: 
+            "London, the capital of the United Kingdom and England, is the largest city in Britain and Europe. It was founded by the Romans almost two thousand years ago, on both banks of the River Thames. Between 1831 and 1925 it was the largest city in the world. It is currently governed by a mayor and a local assembly.",
             packages:[  
                 {
                 title: "England",
@@ -1336,8 +1420,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.solofondos.com%2Ffondos-pantalla-londres.html&psig=AOvVaw1b4dW6UG5h0NfrkcqphuPq&ust=1681313190769000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCID79-2Rov4CFQAAAAAdAAAAABAK",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-pbnsl&psig=AOvVaw1b4dW6UG5h0NfrkcqphuPq&ust=1681313190769000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCID79-2Rov4CFQAAAAAdAAAAABAQ"
+            "https://www.solofondos.com/wp-content/uploads/2020/12/london-eye-3-768x480.jpg",
+            "https://w0.peakpx.com/wallpaper/34/907/HD-wallpaper-london-city-sea-landscape.jpg"
         ],
         price: 4300,
     },
@@ -1350,6 +1434,8 @@ export let destinos = [
         country: "Australia",
         cover_photo:
             "https://tipsparatuviaje.com/wp-content/uploads/2019/08/opera-de-sidney-australia.jpg",
+        description: 
+            "Physical characteristics of the locality: Sydney is the largest and most populated city in Australia, with a population in its metropolitan area close to 4,840,600 inhabitants. It is the capital of the state of New South Wales and was the settlement of the first British colony in Australia. It was founded in 1788.",
             packages:[  
                 {
                 title: "Sidney",
@@ -1392,8 +1478,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgrowproexperience.com%2Faustralia%2Fque-ver-en-sydney%2F&psig=AOvVaw3acg49tF5GJReDVaquxE1I&ust=1681313449379000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD7y-mSov4CFQAAAAAdAAAAABAE",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgrowproexperience.com%2Faustralia%2Fque-ver-en-sydney%2F&psig=AOvVaw3acg49tF5GJReDVaquxE1I&ust=1681313449379000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD7y-mSov4CFQAAAAAdAAAAABAJ"
+            "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/05/Que%CC%81-ver-en-Sydney-1-Opera-House.jpg",
+            "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/05/Que%CC%81-ver-en-Sydney-4-Bondi-beach.jpg"
         ],
         price: 3800,
     },
@@ -1406,6 +1492,8 @@ export let destinos = [
         country: "Rusia",
         cover_photo:
             "https://tipsparatuviaje.com/wp-content/uploads/2019/08/plaza-roja-moscu-rusia.jpg",
+        description: 
+            "Moscow is the capital and the most populous federal entity of Russia. The city is a major political, economic, cultural and scientific center of Russia and the continent. Moscow is the northernmost megacity on Earth and the most populous city in Europe.n 134 Its population is 12,108,2575. By virtue of its territorial expansion to the southwest of Moscow Oblast, on July 1, 2012 the capital increased its area by 2.5 times, from about 1000 km² to 2500 km², and gained an additional population of 230 000 inhabitants.",
             packages:[  
                 {
                 title: "Moscu",
@@ -1448,8 +1536,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FRussia-Moscow-Palace-cathedral-bridge-lights_wallpapers.html&psig=AOvVaw2l8EYi_-LEoQ7aaiZg9KaV&ust=1681313809454000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjt75SUov4CFQAAAAAdAAAAABAK",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallspic.com%2Fes%2Ftag%2Fel_kremlin_de_moscu%2F3840x2160&psig=AOvVaw2l8EYi_-LEoQ7aaiZg9KaV&ust=1681313809454000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjt75SUov4CFQAAAAAdAAAAABAQ"
+            "https://s1.best-wallpaper.net/wallpaper/m/1707/Russia-Moscow-Palace-cathedral-bridge-lights_m.webp",
+            "https://img3.wallspic.com/crops/8/7/7/0/90778/90778-el_kremlin_de_moscu-agua-la_plaza_roja-hito-san_basilio_de_la_catedral-3840x2160.jpg"
         ],
         price: 4200,
     },
@@ -1461,7 +1549,9 @@ export let destinos = [
         continent: "North America",
         country: "United States",
         cover_photo:
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperbetter.com%2Fes%2Fhd-wallpaper-akubi&psig=AOvVaw3uJaY1cxQEyErcGD5snRZy&ust=1681314995778000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjp1sqYov4CFQAAAAAdAAAAABAF",
+            "https://p4.wallpaperbetter.com/wallpaper/730/190/355/cinderella-castle-castle-magic-kingdom-orlando-wallpaper-preview.jpg",
+        description: 
+            "It is the sixth largest city in Florida and the largest non-coastal city. It is also the head of the third largest metropolitan area in the state, behind Miami-Fort Lauderdale and Tampa-St. Petersburg. 34 m a.s.l. 220 186 pop.",
             packages:[  
                 {
                 title: "Orlando",
@@ -1504,8 +1594,8 @@ export let destinos = [
         seller_id: "julia",
         category_id: "International",
         pages: [
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-optva&psig=AOvVaw3uJaY1cxQEyErcGD5snRZy&ust=1681314995778000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjp1sqYov4CFQAAAAAdAAAAABAL",
-            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fes%2Fhd-wallpaper-desktop-fvgwk&psig=AOvVaw3uJaY1cxQEyErcGD5snRZy&ust=1681314995778000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjp1sqYov4CFQAAAAAdAAAAABAR"
+            "https://w0.peakpx.com/wallpaper/616/936/HD-wallpaper-theme-park-in-orlando-florida-06-28-2012-park-theme.jpg",
+            "https://w0.peakpx.com/wallpaper/158/301/HD-wallpaper-orlando-florida-palm-tress-florida-orlando-city.jpg"
         ],
         price: 2500,
     },
