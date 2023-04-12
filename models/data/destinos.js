@@ -6,41 +6,41 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://anduma.tur.ar/wp-content/uploads/2021/04/faf36f_323792ea108e49378282fe19bc560c51_mv2.jpg",
-        packages:[
+        packages: [
             {
-            title: "Bariloche",
-            plane: "Available",
-            time: [
-                {
-                start_date: "08/12/2023",  // Despues reviso si se puede pasar por el calendar de google.
-                finish_date: "15/12/2023" // Despues reviso si se puede pasar por el calendar de google.
-                }
-            ],
-            price: 495,
-            hotel: [
-                {
-                check_in: "09/12/2023 - 07:00 am",
-                check_out: "16/12/2023 - 10:00 am"
-            }
-        ]  
+                title: "Bariloche",
+                plane: "Available",
+                time: [
+                    {
+                        start_date: "08/12/2023",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "15/12/2023" // Despues reviso si se puede pasar por el calendar de google.
+                    }
+                ],
+                price: 495,
+                hotel: [
+                    {
+                        check_in: "09/12/2023 - 07:00 am",
+                        check_out: "16/12/2023 - 10:00 am"
+                    }
+                ]
             },
             {
-            train: "Not Available",
-            time: {
-                start_date: " Not Available",  // Despues reviso si se puede pasar por el calendar de google.
-                finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                train: "Not Available",
+                time: {
+                    start_date: " Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                 },
-            price: "Not Available",
-            hotel: "Not Available"
+                price: "Not Available",
+                hotel: "Not Available"
             },
             {
-            bus: "Available",
-            time: {
-                start_date: "20/12/2023",  // Despues reviso si se puede pasar por el calendar de google.
-                finish_date: "25/12/2023" // Despues reviso si se puede pasar por el calendar de google.
+                bus: "Available",
+                time: {
+                    start_date: "20/12/2023",  // Despues reviso si se puede pasar por el calendar de google.
+                    finish_date: "25/12/2023" // Despues reviso si se puede pasar por el calendar de google.
                 },
-            price: 340,
-            hotel: "Not Available"
+                price: 340,
+                hotel: "Not Available"
             },
         ],
         category_id: "Mountains and Adventure Sports",
@@ -61,41 +61,41 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://c4.wallpaperflare.com/wallpaper/447/232/16/iguazu-national-park-south-america-iguazu-river-misiones-wallpaper-preview.jpg",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Las Cataratas del Iguazú",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "02/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "09/02/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "02/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "09/02/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 489,
                 hotel: [
                     {
-                    check_in: "03/02/2024 - 07:00 am",
-                    check_out: "10/02/2024 - 10:00 am"
-                }
+                        check_in: "03/02/2024 - 07:00 am",
+                        check_out: "10/02/2024 - 10:00 am"
+                    }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: " Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Available",
                 time: {
                     start_date: "20/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "10/02/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 440,
                 hotel: [
                     {
@@ -103,8 +103,8 @@ export let destinos = [
                         check_out: "21/02/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         category_id: "Nature and Wildlife",
         seller_id: "adrian",
         pages: [
@@ -123,31 +123,31 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://viatgesrovira.com/wp-content/uploads/2020/01/CALAFATE.jpg",
-        packages:[
-                {
+        packages: [
+            {
                 title: "Calafate",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "12/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "20/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "12/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "20/03/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 1098,
                 hotel: [
                     {
-                    check_in: "13/03/2024 - 07:00 am",
-                    check_out: "21/03/2024 - 10:00 am"
-                }
+                        check_in: "13/03/2024 - 07:00 am",
+                        check_out: "21/03/2024 - 10:00 am"
+                    }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "20/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "10/02/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 850,
                 hotel: [
                     {
@@ -155,18 +155,18 @@ export let destinos = [
                         check_out: "21/02/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         category_id: "Mountains and Adventure Sports",
         seller_id: "julia",
         pages: [
@@ -185,26 +185,26 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://1.bp.blogspot.com/-2-6kA3yOl7s/XPfBKGn-SEI/AAAAAAAAG3A/v2YK8ruMUPsCplnd4otTciCFLDh31XATgCPcBGAYYCw/s1600/Parque%2Bnacional%2Bel%2Bleoncito%2Bactividades%2Binformacion%2Btrekking%2Bvisitas.jpg",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Parque Nacional El Leoncito",
                 plane: "Not Available",
                 time: [
                     {
-                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 train: "Available",
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "29/06/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 648,
                 hotel: [
                     {
@@ -212,18 +212,18 @@ export let destinos = [
                         check_out: "30/06/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 bus: "Available",
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 568,
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         category_id: "Nature and Wildlife",
         seller_id: "julia",
         pages: [
@@ -241,26 +241,26 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://www.serargentino.com/public/images/2020/07/15947388080-parque_nacional_chaco_casa_guardaparque-773x458.jpg",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Parque Nacional Chaco",
                 plane: "Not Available",
                 time: [
                     {
-                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 train: "Available",
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "29/06/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 648,
                 hotel: [
                     {
@@ -268,23 +268,23 @@ export let destinos = [
                         check_out: "30/06/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 bus: "Available",
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 568,
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         category_id: "Nature and Wildlife",
         seller_id: "javier",
         pages: [
             "https://www.industriaambiental.com.ar/images/articulos/19/chaco.jpg",
-            "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/DLPWBHNQSFA7NJSWZY4BUTEDPY.jpg","https://destinonea.com/download/multimedia.normal.94f7a5b27c9eb7dc.656c2070616c6d6172206c6167756e615f6e6f726d616c2e6a7067.jpg"
+            "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/DLPWBHNQSFA7NJSWZY4BUTEDPY.jpg", "https://destinonea.com/download/multimedia.normal.94f7a5b27c9eb7dc.656c2070616c6d6172206c6167756e615f6e6f726d616c2e6a7067.jpg"
         ],
         price: 600,
     },
@@ -297,14 +297,14 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://millasxelmundo.com/wp-content/uploads/2021/11/img_9476.png",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Puerto Madryn",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "25/08/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "25/08/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 569,
@@ -314,24 +314,24 @@ export let destinos = [
                         check_out: "25/08/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Available",
                 time: {
                     start_date: "15/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "27/07/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 497,
                 hotel: [
                     {
@@ -339,8 +339,8 @@ export let destinos = [
                         check_out: "28/07/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "javier",
         category_id: "Nature and Wildlife",
         pages: [
@@ -358,14 +358,14 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://turismo.buenosaires.gob.ar/sites/turismo/files/planetario_agua_1200_2.jpg",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Palermo",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "07/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "24/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "07/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "24/09/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 589,
@@ -375,14 +375,14 @@ export let destinos = [
                         check_out: "25/09/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Available",
                 time: {
                     start_date: "05/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "15/09/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 557,
                 hotel: [
                     {
@@ -390,14 +390,14 @@ export let destinos = [
                         check_out: "16/09/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 bus: "Available",
                 time: {
                     start_date: "09/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "24/09/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 497,
                 hotel: [
                     {
@@ -405,8 +405,8 @@ export let destinos = [
                         check_out: "25/09/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "javier",
         category_id: "City and Urban Tourism",
         pages: [
@@ -424,14 +424,14 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://i.postimg.cc/xdz8jS3z/lacumbrecita.png",
-            packages:[
-                {
+        packages: [
+            {
                 title: "La Cumbrecita",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "13/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "30/04/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "30/04/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 514,
@@ -441,14 +441,14 @@ export let destinos = [
                         check_out: "30/04/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Available",
                 time: {
                     start_date: "05/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "15/08/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 489,
                 hotel: [
                     {
@@ -456,14 +456,14 @@ export let destinos = [
                         check_out: "16/08/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 bus: "Available",
                 time: {
                     start_date: "15/12/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "02/01/2025" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 457,
                 hotel: [
                     {
@@ -471,8 +471,8 @@ export let destinos = [
                         check_out: "02/01/2025 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "javier",
         category_id: "Nature and Wildlife",
         pages: [
@@ -490,36 +490,36 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://revistauncamino.com.ar/wp-content/uploads/2020/01/TERMAS-FEDERACION-3.jpg",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Termas de Federacion",
                 plane: "Not Available",
                 time: [
                     {
-                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Available",
                 time: {
                     start_date: "03/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "17/05/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 457,
                 hotel: [
                     {
@@ -527,8 +527,8 @@ export let destinos = [
                         check_out: "17/05/2025 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "Nature and Wildlife",
         pages: [
@@ -546,26 +546,26 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://i.ytimg.com/vi/sjUrN5FNR0k/maxresdefault.jpg",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Purmamarca",
                 plane: "Not Available",
                 time: [
                     {
-                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 train: "Available",
                 time: {
                     start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 489,
                 hotel: [
                     {
@@ -573,14 +573,14 @@ export let destinos = [
                         check_out: "04/07/2025 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 bus: "Available",
                 time: {
                     start_date: "04/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "17/03/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 457,
                 hotel: [
                     {
@@ -588,8 +588,8 @@ export let destinos = [
                         check_out: "17/03/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "Nature and Wildlife",
         pages: [
@@ -607,14 +607,14 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://www.rionegro.com.ar/wp-content/uploads/2022/04/00000000000000-7.jpg",
-            packages:[
-                {
+        packages: [
+            {
                 title: "San Martin de los Andes",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "05/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "17/11/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "05/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "17/11/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 987,
@@ -624,14 +624,14 @@ export let destinos = [
                         check_out: "17/11/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Available",
                 time: {
                     start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 865,
                 hotel: [
                     {
@@ -639,14 +639,14 @@ export let destinos = [
                         check_out: "04/07/2025 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 bus: "Available",
                 time: {
                     start_date: "04/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "17/03/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 794,
                 hotel: [
                     {
@@ -654,8 +654,8 @@ export let destinos = [
                         check_out: "17/03/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "Nature and Wildlife",
         pages: [
@@ -673,14 +673,14 @@ export let destinos = [
         country: "Argentina",
         cover_photo:
             "https://media.viajando.travel/p/ed55770f8c8875de65e4e0dae5a314f6/adjuntos/236/imagenes/000/490/0000490331/1200x675/smart/ushuaia.jpg",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Ushuaia",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "17/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "17/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 1187,
@@ -690,14 +690,14 @@ export let destinos = [
                         check_out: "31/09/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Available",
                 time: {
                     start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 1065,
                 hotel: [
                     {
@@ -705,18 +705,18 @@ export let destinos = [
                         check_out: "06/10/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "End of the World and Extreme Nature",
         pages: [
@@ -734,14 +734,14 @@ export let destinos = [
         country: "France",
         cover_photo:
             "https://rare-gallery.com/uploads/posts/380788-4k-wallpaper.jpg",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Ushuaia",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "06/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "21/04/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "06/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "21/04/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2389,
@@ -751,28 +751,28 @@ export let destinos = [
                         check_out: "21/04/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -790,14 +790,14 @@ export let destinos = [
         country: "Mexico",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblogs.portafolio.co%2Ftop-10-las-mejores-playas-cancun-debes-visitar&psig=AOvVaw0EwPrLcRiWdrjW9h-julse&ust=1681269077575000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDj8MLtoP4CFQAAAAAdAAAAABAE",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Cancun",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "06/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "24/01/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "06/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "24/01/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2589,
@@ -807,28 +807,28 @@ export let destinos = [
                         check_out: "24/01/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -846,14 +846,14 @@ export let destinos = [
         country: "Italy",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpuzzlefactory.pl%2Fes%2Frompecabezas%2Fjugar%2Fpaisajes%2F226532-paisaje-de-venecia&psig=AOvVaw0BQaBphgyimdbEmaQGX80_&ust=1681269273768000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIj5p6DuoP4CFQAAAAAdAAAAABAK",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Venecia",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "14/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "14/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2638,
@@ -863,28 +863,28 @@ export let destinos = [
                         check_out: "30/06/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -902,14 +902,14 @@ export let destinos = [
         country: "Egipto",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Fvista-centro-ciudad-cairo-al-atardecer-egipto_13138018.htm&psig=AOvVaw29jomu0mMrCA49wX0RraGX&ust=1681269737616000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiyvf3voP4CFQAAAAAdAAAAABAK",
-            packages:[
-                {
+        packages: [
+            {
                 title: "Cairo",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "14/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "14/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2638,
@@ -919,28 +919,28 @@ export let destinos = [
                         check_out: "31/09/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -958,14 +958,14 @@ export let destinos = [
         country: "United States",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.expedia.mx%2Ffotos%2Fcondado-de-los-angeles%2Flos-angeles.d178280&psig=AOvVaw22DrZYAdQOmuthC1SYflai&ust=1681270010422000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMDS2v_woP4CFQAAAAAdAAAAABAE",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "Los Angeles",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "02/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "21/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "02/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "21/03/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2238,
@@ -975,28 +975,28 @@ export let destinos = [
                         check_out: "21/03/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1014,14 +1014,14 @@ export let destinos = [
         country: "United States",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lanacion.com.ar%2Festados-unidos%2Fcuales-son-las-seis-mejores-playas-de-miami-entre-surf-naturaleza-y-compras-nid12102022%2F&psig=AOvVaw1kK8DLMlGOZRjfC4uccH2P&ust=1681270151268000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjP6sLxoP4CFQAAAAAdAAAAABAE",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "Los Angeles",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "14/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "27/01/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "14/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "27/01/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 1838,
@@ -1031,28 +1031,28 @@ export let destinos = [
                         check_out: "27/01/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1070,14 +1070,14 @@ export let destinos = [
         country: "Thailand",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixelz.cc%2Fimages%2Fwat-arun-buddhist-temple-bangkok-thailand-uhd-4k-wallpaper%2F&psig=AOvVaw3HlwvM8C4fqc3LlyE98z29&ust=1681270446364000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjRxM_yoP4CFQAAAAAdAAAAABAE",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "Bangkok",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "27/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "10/05/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "27/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "10/05/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 3638,
@@ -1087,28 +1087,28 @@ export let destinos = [
                         check_out: "10/05/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1126,14 +1126,14 @@ export let destinos = [
         country: "Germany",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vivodeviajes.com%2Falemania%2Fbaviera%2F&psig=AOvVaw13xy6rxWDtHUxDd3Yci1yq&ust=1681312071158000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPjkhNiNov4CFQAAAAAdAAAAABAE",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "Baviera",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "30/08/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "30/08/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 3638,
@@ -1143,28 +1143,28 @@ export let destinos = [
                         check_out: "30/08/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1182,14 +1182,14 @@ export let destinos = [
         country: "Turkey",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FTurkey-Istanbul-beautiful-city-scenery-sunset-buildings-houses-river_wallpapers.html&psig=AOvVaw0GQqegalSTVWe9EWuesZiT&ust=1681312409072000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLD5lvmOov4CFQAAAAAdAAAAABAE",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "Istambul",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "04/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "17/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "04/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "17/06/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 4138,
@@ -1199,28 +1199,28 @@ export let destinos = [
                         check_out: "17/08/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1238,14 +1238,14 @@ export let destinos = [
         country: "China",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pxfuel.com%2Fes%2Ffree-photo-juley&psig=AOvVaw0URG5nZnHeKch61oMg70jy&ust=1681312930622000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKi79_GQov4CFQAAAAAdAAAAABAK",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "Beijing",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "13/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "27/07/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "27/07/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 4438,
@@ -1255,28 +1255,28 @@ export let destinos = [
                         check_out: "27/07/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1294,14 +1294,14 @@ export let destinos = [
         country: "England",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.best-wallpaper.net%2FLondon-England-Big-Ben-river-bridge-dusk-lights_wallpapers.html&psig=AOvVaw1b4dW6UG5h0NfrkcqphuPq&ust=1681313190769000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCID79-2Rov4CFQAAAAAdAAAAABAE",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "England",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 4138,
@@ -1311,28 +1311,28 @@ export let destinos = [
                         check_out: "07/11/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1350,14 +1350,14 @@ export let destinos = [
         country: "Australia",
         cover_photo:
             "https://tipsparatuviaje.com/wp-content/uploads/2019/08/opera-de-sidney-australia.jpg",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "Sidney",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 3738,
@@ -1367,28 +1367,28 @@ export let destinos = [
                         check_out: "07/11/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1406,14 +1406,14 @@ export let destinos = [
         country: "Rusia",
         cover_photo:
             "https://tipsparatuviaje.com/wp-content/uploads/2019/08/plaza-roja-moscu-rusia.jpg",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "Moscu",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "26/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "05/12/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "26/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "05/12/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 4038,
@@ -1423,28 +1423,28 @@ export let destinos = [
                         check_out: "05/12/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1462,14 +1462,14 @@ export let destinos = [
         country: "United States",
         cover_photo:
             "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperbetter.com%2Fes%2Fhd-wallpaper-akubi&psig=AOvVaw3uJaY1cxQEyErcGD5snRZy&ust=1681314995778000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjp1sqYov4CFQAAAAAdAAAAABAF",
-            packages:[  
-                {
+        packages: [
+            {
                 title: "Orlando",
                 plane: "Available",
                 time: [
                     {
-                    start_date: "13/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "30/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "30/03/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2338,
@@ -1479,28 +1479,28 @@ export let destinos = [
                         check_out: "30/03/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
-                {
+            {
                 train: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
-                {
+            {
                 bus: "Not Available",
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1509,5 +1509,5 @@ export let destinos = [
         ],
         price: 2500,
     },
-    
+
 ];
