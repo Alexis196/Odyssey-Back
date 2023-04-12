@@ -15,7 +15,7 @@ const schema = Joi.object({
         .string()
         .uri()
         .required(),
-    description: Joi
+    packages: Joi
         .string()
         .required()
         .min(20)

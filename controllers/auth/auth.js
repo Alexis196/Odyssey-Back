@@ -12,6 +12,9 @@ const transporter = nodemailer.createTransport({
     user: process.env.SMTP_USER,
     pass: process.env.SMTP_PASS,
   },
+  tls: {
+    rejectUnauthorized: false
+  }
 });
 
 const controller = {
@@ -34,8 +37,8 @@ const controller = {
         html: `<p style="font-size: 20px;"><br>Welcome to <strong>Odyssey!!</strong><br>
                <img style="width: 15rem; border-radius: 0.5rem;" src="https://mochilerostv.com/wp-content/uploads/2014/11/mejores-gifts-animados-de-viaje-8.gif" alt="robot3">
               <br> Discover a world, have fun and enjoy <br> 
-              Press the following link to validate your user: <a style="color: red;" href="http://localhost:8080/users/verify/${req.body.verify_code}"a>Click here</  a></p> 
-              <p style="color: grey;">----------------------------------<br>
+              Press the following link to validate your user: <a style="color: red;" href="http://localhost:3000/users/verify/${req.body.verify_code}"a>Click here</  a></p> 
+              <p style="color: grey;">--<br>
               Kind regards,<br>
               Odyssey's team<br>
               <br>
