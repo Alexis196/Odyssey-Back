@@ -16,11 +16,7 @@ router.get('/', function (req, res, next) {
 router.use('/users', userRouter)
 router.use('/destinos', destino)
 router.use('/details', detail)
-<<<<<<< HEAD
 router.use('/sellers', seller)
-=======
-router.use('/seller', seller)
 router.use('/consulta', consulta )
->>>>>>> be6f6b89918e139714a0cecfdb1a58144746c64c
 
 export default router
