@@ -1,6 +1,6 @@
 import express from "express";
 import passport from "../middlewares/passport.js";
-import compras from '../controllers/mercadoPago/compra.js'
+import compras from '../controllers/mercadoPagoo/compra.js'
 
 let router = express.Router();
 
