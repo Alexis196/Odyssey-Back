@@ -12,7 +12,7 @@ let schema = new mongoose.Schema(
     packages: { type: Array, required: true },
     category_id: { type: mongoose.Types.ObjectId, ref: 'categories', required: true },
     pages: {type: Array, required: true},
-    price: {type: Number, required: true}
+    // price: {type: Number, required: true}
   },{
     timestamps: true
   }

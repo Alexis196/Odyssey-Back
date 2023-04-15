@@ -38,12 +38,15 @@ const schema = Joi.object({
         .messages({
             "pages": "field must be a valid URL, separated by commas."
         }),
-    price: Joi
-        .number()
-        .required()
-        .messages({
-            "price": "field must be a valid number."
-        }),
+    continent: Joi
+        .string()
+        .required(),
+    // price: Joi
+    //     .number()
+    //     .required()
+    //     .messages({
+    //         "price": "field must be a valid number."
+    //     }),
 })
 
 export default schema
