@@ -34,8 +34,8 @@ export let destinos = [
                 start_date: " Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                 finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                 },
-            price: "Not Available",
-            hotel: "Not Available"
+                price: "Not Available",
+                hotel: "Not Available"
             },
 
             {
@@ -45,8 +45,8 @@ export let destinos = [
                 start_date: "20/12/2023",  // Despues reviso si se puede pasar por el calendar de google.
                 finish_date: "25/12/2023" // Despues reviso si se puede pasar por el calendar de google.
                 },
-            price: 340,
-            hotel: "Not Available"
+                price: 340,
+                hotel: "Not Available"
             },
         ],
         category_id: "Mountains and Adventure Sports",
@@ -74,18 +74,18 @@ export let destinos = [
                 stock: 37,
                 time: [
                     {
-                    start_date: "02/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "09/02/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "02/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "09/02/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 489,
                 hotel: [
                     {
-                    check_in: "03/02/2024 - 07:00 am",
-                    check_out: "10/02/2024 - 10:00 am"
-                }
+                        check_in: "03/02/2024 - 07:00 am",
+                        check_out: "10/02/2024 - 10:00 am"
+                    }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -93,10 +93,10 @@ export let destinos = [
                 time: {
                     start_date: " Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -104,7 +104,7 @@ export let destinos = [
                 time: {
                     start_date: "20/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "10/02/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 440,
                 hotel: [
                     {
@@ -112,8 +112,8 @@ export let destinos = [
                         check_out: "21/02/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         category_id: "Nature and Wildlife",
         seller_id: "adrian",
         pages: [
@@ -137,18 +137,18 @@ export let destinos = [
                 stock: 7,
                 time: [
                     {
-                    start_date: "12/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "20/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "12/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "20/03/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 1098,
                 hotel: [
                     {
-                    check_in: "13/03/2024 - 07:00 am",
-                    check_out: "21/03/2024 - 10:00 am"
-                }
+                        check_in: "13/03/2024 - 07:00 am",
+                        check_out: "21/03/2024 - 10:00 am"
+                    }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -156,7 +156,7 @@ export let destinos = [
                 time: {
                     start_date: "20/02/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "10/02/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 850,
                 hotel: [
                     {
@@ -164,7 +164,7 @@ export let destinos = [
                         check_out: "21/02/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Bus",
@@ -172,11 +172,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         category_id: "Mountains and Adventure Sports",
         seller_id: "julia",
         pages: [
@@ -202,13 +202,13 @@ export let destinos = [
                 stock: "Not Available",
                 time: [
                     {
-                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Train",
@@ -216,7 +216,7 @@ export let destinos = [
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "29/06/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 648,
                 hotel: [
                     {
@@ -224,7 +224,7 @@ export let destinos = [
                         check_out: "30/06/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Bus",
@@ -232,11 +232,11 @@ export let destinos = [
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 568,
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         category_id: "Nature and Wildlife",
         seller_id: "julia",
         pages: [
@@ -261,13 +261,13 @@ export let destinos = [
                 stock: "Not Available",
                 time: [
                     {
-                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Train",
@@ -275,7 +275,7 @@ export let destinos = [
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "29/06/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 648,
                 hotel: [
                     {
@@ -283,7 +283,7 @@ export let destinos = [
                         check_out: "30/06/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Bus",
@@ -291,16 +291,16 @@ export let destinos = [
                 time: {
                     start_date: "22/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 568,
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         category_id: "Nature and Wildlife",
         seller_id: "javier",
         pages: [
             "https://www.industriaambiental.com.ar/images/articulos/19/chaco.jpg",
-            "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/DLPWBHNQSFA7NJSWZY4BUTEDPY.jpg","https://destinonea.com/download/multimedia.normal.94f7a5b27c9eb7dc.656c2070616c6d6172206c6167756e615f6e6f726d616c2e6a7067.jpg"
+            "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/DLPWBHNQSFA7NJSWZY4BUTEDPY.jpg", "https://destinonea.com/download/multimedia.normal.94f7a5b27c9eb7dc.656c2070616c6d6172206c6167756e615f6e6f726d616c2e6a7067.jpg"
         ],
     },
 
@@ -320,8 +320,8 @@ export let destinos = [
                 stock: 18,
                 time: [
                     {
-                    start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "25/08/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "25/08/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 569,
@@ -331,7 +331,7 @@ export let destinos = [
                         check_out: "25/08/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -339,10 +339,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -350,7 +350,7 @@ export let destinos = [
                 time: {
                     start_date: "15/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "27/07/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 497,
                 hotel: [
                     {
@@ -358,8 +358,8 @@ export let destinos = [
                         check_out: "28/07/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "javier",
         category_id: "Nature and Wildlife",
         pages: [
@@ -384,8 +384,8 @@ export let destinos = [
                 stock: 28,
                 time: [
                     {
-                    start_date: "07/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "24/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "07/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "24/09/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 589,
@@ -395,7 +395,7 @@ export let destinos = [
                         check_out: "25/09/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -403,7 +403,7 @@ export let destinos = [
                 time: {
                     start_date: "05/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "15/09/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 557,
                 hotel: [
                     {
@@ -411,7 +411,7 @@ export let destinos = [
                         check_out: "16/09/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Bus",
@@ -419,7 +419,7 @@ export let destinos = [
                 time: {
                     start_date: "09/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "24/09/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 497,
                 hotel: [
                     {
@@ -427,8 +427,8 @@ export let destinos = [
                         check_out: "25/09/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "javier",
         category_id: "City and Urban Tourism",
         pages: [
@@ -453,8 +453,8 @@ export let destinos = [
                 stock: 16,
                 time: [
                     {
-                    start_date: "13/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "30/04/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "30/04/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 514,
@@ -464,7 +464,7 @@ export let destinos = [
                         check_out: "30/04/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -472,7 +472,7 @@ export let destinos = [
                 time: {
                     start_date: "05/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "15/08/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 489,
                 hotel: [
                     {
@@ -480,7 +480,7 @@ export let destinos = [
                         check_out: "16/08/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Bus",
@@ -488,7 +488,7 @@ export let destinos = [
                 time: {
                     start_date: "15/12/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "02/01/2025" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 457,
                 hotel: [
                     {
@@ -496,8 +496,8 @@ export let destinos = [
                         check_out: "02/01/2025 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "javier",
         category_id: "Nature and Wildlife",
         pages: [
@@ -522,13 +522,13 @@ export let destinos = [
                 stock: "Not Available",
                 time: [
                     {
-                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Train",
@@ -536,10 +536,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -547,7 +547,7 @@ export let destinos = [
                 time: {
                     start_date: "03/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "17/05/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 457,
                 hotel: [
                     {
@@ -555,8 +555,8 @@ export let destinos = [
                         check_out: "17/05/2025 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "Nature and Wildlife",
         pages: [
@@ -581,13 +581,13 @@ export let destinos = [
                 stock: "Not Available",
                 time: [
                     {
-                    start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Train",
@@ -595,7 +595,7 @@ export let destinos = [
                 time: {
                     start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 489,
                 hotel: [
                     {
@@ -603,7 +603,7 @@ export let destinos = [
                         check_out: "04/07/2025 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Bus",
@@ -611,7 +611,7 @@ export let destinos = [
                 time: {
                     start_date: "04/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "17/03/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 457,
                 hotel: [
                     {
@@ -619,8 +619,8 @@ export let destinos = [
                         check_out: "17/03/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "Nature and Wildlife",
         pages: [
@@ -645,8 +645,8 @@ export let destinos = [
                 stock: 74,
                 time: [
                     {
-                    start_date: "05/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "17/11/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "05/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "17/11/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 987,
@@ -656,7 +656,7 @@ export let destinos = [
                         check_out: "17/11/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -664,7 +664,7 @@ export let destinos = [
                 time: {
                     start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 865,
                 hotel: [
                     {
@@ -672,7 +672,7 @@ export let destinos = [
                         check_out: "04/07/2025 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Bus",
@@ -680,7 +680,7 @@ export let destinos = [
                 time: {
                     start_date: "04/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "17/03/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 794,
                 hotel: [
                     {
@@ -688,8 +688,8 @@ export let destinos = [
                         check_out: "17/03/2024 - 10:00 am"
                     }
                 ]
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "Nature and Wildlife",
         pages: [
@@ -714,8 +714,8 @@ export let destinos = [
                 stock: 31,
                 time: [
                     {
-                    start_date: "17/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "17/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 1187,
@@ -725,7 +725,7 @@ export let destinos = [
                         check_out: "31/09/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -733,7 +733,7 @@ export let destinos = [
                 time: {
                     start_date: "17/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "04/07/2024" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: 1065,
                 hotel: [
                     {
@@ -741,7 +741,7 @@ export let destinos = [
                         check_out: "06/10/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Bus",
@@ -749,11 +749,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "End of the World and Extreme Nature",
         pages: [
@@ -778,8 +778,8 @@ export let destinos = [
                 stock: 28,
                 time: [
                     {
-                    start_date: "06/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "21/04/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "06/04/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "21/04/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2389,
@@ -789,7 +789,7 @@ export let destinos = [
                         check_out: "21/04/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -797,10 +797,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -808,11 +808,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -837,8 +837,8 @@ export let destinos = [
                 stock: 49,
                 time: [
                     {
-                    start_date: "06/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "24/01/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "06/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "24/01/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2589,
@@ -848,7 +848,7 @@ export let destinos = [
                         check_out: "24/01/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -856,10 +856,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -867,11 +867,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -896,8 +896,8 @@ export let destinos = [
                 stock: 31,
                 time: [
                     {
-                    start_date: "14/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "14/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "30/06/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2638,
@@ -907,7 +907,7 @@ export let destinos = [
                         check_out: "30/06/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -915,10 +915,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -926,11 +926,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -955,8 +955,8 @@ export let destinos = [
                 stock: 27,
                 time: [
                     {
-                    start_date: "14/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "14/09/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "31/09/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2638,
@@ -966,7 +966,7 @@ export let destinos = [
                         check_out: "31/09/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -974,10 +974,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -985,11 +985,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1014,8 +1014,8 @@ export let destinos = [
                 stock: 57,
                 time: [
                     {
-                    start_date: "02/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "21/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "02/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "21/03/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2238,
@@ -1025,7 +1025,7 @@ export let destinos = [
                         check_out: "21/03/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1033,10 +1033,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1044,11 +1044,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1073,8 +1073,8 @@ export let destinos = [
                 stock: 38,
                 time: [
                     {
-                    start_date: "14/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "27/01/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "14/01/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "27/01/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 1838,
@@ -1084,7 +1084,7 @@ export let destinos = [
                         check_out: "27/01/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1092,10 +1092,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1103,11 +1103,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1132,8 +1132,8 @@ export let destinos = [
                 stock: 34,
                 time: [
                     {
-                    start_date: "27/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "10/05/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "27/05/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "10/05/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 3638,
@@ -1143,7 +1143,7 @@ export let destinos = [
                         check_out: "10/05/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1151,10 +1151,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1162,11 +1162,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1191,8 +1191,8 @@ export let destinos = [
                 stock: 17,
                 time: [
                     {
-                    start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "30/08/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/08/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "30/08/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 3638,
@@ -1202,7 +1202,7 @@ export let destinos = [
                         check_out: "30/08/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1210,10 +1210,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1221,11 +1221,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1250,8 +1250,8 @@ export let destinos = [
                 stock: 22,
                 time: [
                     {
-                    start_date: "04/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "17/06/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "04/06/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "17/06/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 4138,
@@ -1261,7 +1261,7 @@ export let destinos = [
                         check_out: "17/08/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1269,10 +1269,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1280,11 +1280,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1309,8 +1309,8 @@ export let destinos = [
                 stock: 41,
                 time: [
                     {
-                    start_date: "13/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "27/07/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/07/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "27/07/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 4438,
@@ -1320,7 +1320,7 @@ export let destinos = [
                         check_out: "27/07/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1328,10 +1328,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1339,11 +1339,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1368,8 +1368,8 @@ export let destinos = [
                 stock: 17,
                 time: [
                     {
-                    start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 4138,
@@ -1379,7 +1379,7 @@ export let destinos = [
                         check_out: "07/11/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1387,10 +1387,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1398,11 +1398,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1427,8 +1427,8 @@ export let destinos = [
                 stock: 73,
                 time: [
                     {
-                    start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "26/10/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "07/11/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 3738,
@@ -1438,7 +1438,7 @@ export let destinos = [
                         check_out: "07/11/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1446,10 +1446,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1457,11 +1457,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1486,8 +1486,8 @@ export let destinos = [
                 stock: 62,
                 time: [
                     {
-                    start_date: "26/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "05/12/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "26/11/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "05/12/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 4038,
@@ -1497,7 +1497,7 @@ export let destinos = [
                         check_out: "05/12/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1505,10 +1505,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1516,11 +1516,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1545,8 +1545,8 @@ export let destinos = [
                 stock: 6,
                 time: [
                     {
-                    start_date: "13/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
-                    finish_date: "30/03/2024" // Despues reviso si se puede pasar por el calendar de google.
+                        start_date: "13/03/2024",  // Despues reviso si se puede pasar por el calendar de google.
+                        finish_date: "30/03/2024" // Despues reviso si se puede pasar por el calendar de google.
                     }
                 ],
                 price: 2338,
@@ -1556,7 +1556,7 @@ export let destinos = [
                         check_out: "30/03/2024 - 10:00 am"
                     }
                 ]
-                },
+            },
 
                 {
                 type: "Train",
@@ -1564,10 +1564,10 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
+            },
 
                 {
                 type: "Bus",
@@ -1575,11 +1575,11 @@ export let destinos = [
                 time: {
                     start_date: "Not Available",  // Despues reviso si se puede pasar por el calendar de google.
                     finish_date: "Not Available" // Despues reviso si se puede pasar por el calendar de google.
-                    },
+                },
                 price: "Not Available",
                 hotel: "Not Available"
-                },
-            ],
+            },
+        ],
         seller_id: "julia",
         category_id: "International",
         pages: [
@@ -1588,5 +1588,5 @@ export let destinos = [
         ],
         price: 2500,
     },
-    
+
 ];
