@@ -6,5 +6,5 @@ import consultaSchemas from "../schemas/consulta.js";
 
 let router = express.Router();
 const { consulta } = controller;
-router.post("/queries",validator(consultaSchemas), consulta);
+router.post("/queries", validator(consultaSchemas), consulta);
 export default router;
