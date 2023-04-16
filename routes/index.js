@@ -3,6 +3,7 @@ import destino from './destinos.js'
 import detail from './details.js';
 import seller from './seller.js'
 import consulta from './consultas.js'
+import compra from './compras.js'
 
 
 import express from 'express'
@@ -16,11 +17,8 @@ router.get('/', function (req, res, next) {
 router.use('/users', userRouter)
 router.use('/destinos', destino)
 router.use('/details', detail)
-<<<<<<< HEAD
-router.use('/sellers', seller)
-=======
 router.use('/seller', seller)
+router.use("/buy", compra);
 router.use('/consulta', consulta )
->>>>>>> be6f6b89918e139714a0cecfdb1a58144746c64c
 
 export default router
