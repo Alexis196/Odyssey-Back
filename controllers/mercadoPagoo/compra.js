@@ -35,17 +35,17 @@ const controller = {
             <h3 style="font-size:20px; text-align:center">Thank you for your purchase!</h3>
             <p style="font-size:16px; text-align:center">Here are the details of your order:</p>
             
-              <div>
-              
-              <div>
+            <div>
+            
+            <div>
                 ${products.map((product) => `<p>${product.title}: ${product.type}: $${product.price} : quantity: ${product.quantity}</p> `).join('')}
                 </div>
-              </div>
+            </div>
 
-              <p style="font-size:14px; text-align:center; ">Total price: $${totalPrice}</p>
+            <p style="font-size:14px; text-align:center; ">Total price: $${totalPrice}</p>
 
-             
-              <p>We appreciate your business and hope you enjoy your purchase!</p>
+            
+            <p>We appreciate your business and hope you enjoy your purchase!</p>
             </div>`
 
         };
@@ -72,7 +72,7 @@ const controller = {
                 name: req.user.name,
             },
             back_urls: {
-                success: "http://localhost:3000/",
+                success: "https://joyful-otter-8b3cb4.netlify.app/",
                 failure: "",
                 pending: "",
             },
