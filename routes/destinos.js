@@ -26,6 +26,6 @@ router.get('/:id', passport.authenticate('jwt', { session: false }), getOne)
 
 router.put('/:id', passport.authenticate('jwt', { session: false }), update)
 
-router.delete('/:id', passport.authenticate('jwt', { session: false }), finds_id, is_active, is_property_of, destroy)
+router.delete('/:id', passport.authenticate('jwt', { session: false }), finds_id, is_active, destroy)
 
 export default router
