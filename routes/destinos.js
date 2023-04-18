@@ -11,6 +11,7 @@ import is_property_of from "../middlewares/sellers/is_property_of.js";
 import is_active from "../middlewares/sellers/is_active.js";
 import destinoSchemas from '../schemas/destino.js'
 import validator from '../middlewares/validator.js'
+import controllerCategory from '../controllers/category/category.js'
 
 let router = express.Router()
 const { create } = destinos
@@ -18,9 +19,11 @@ const { getOne } = oneDest
 const { destroy } = destroyD
 const { update } = updateD
 const { read } = todos
+const { show } = controllerCategory
 
 router.post('/', passport.authenticate("jwt", { session: false }), validator(destinoSchemas), exist_destino, finds_id, create)
 
+router.get('/categories', show)
 router.get('/', passport.authenticate('jwt', { session: false }), read)
 router.get('/:id', passport.authenticate('jwt', { session: false }), getOne)
 
