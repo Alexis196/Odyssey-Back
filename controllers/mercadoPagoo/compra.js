@@ -35,6 +35,7 @@ const controller = {
             <h3 style="font-size:20px; text-align:center">Thank you for your purchase!</h3>
             <p style="font-size:16px; text-align:center">Here are the details of your order:</p>
             
+
             <div>
             
             <div>
@@ -46,6 +47,7 @@ const controller = {
 
             
             <p>We appreciate your business and hope you enjoy your purchase!</p>
+
             </div>`
 
         };
